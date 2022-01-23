@@ -123,3 +123,8 @@ print(int("12"))
 print(sorted(("b", "g", "a", "d", "f", "c", "h", "e")))
 print(sorted((1, 11, 2)))
 print(sorted(("h", "b", "a", "c", "f", "d", "e", "g"), reverse=True))
+
+# slice
+f = ("a", "b", "c", "d", "e", "f", "g", "h")
+# g = slice(2)
+print(f[slice(2)])
