@@ -134,3 +134,6 @@ print(f[slice(0, 8, 3)])
 # set attr
 setattr(A, 'age', 40)
 print(getattr(A, 'age'))
+
+# set
+print(set(("apple", "banana", "cherry")))
