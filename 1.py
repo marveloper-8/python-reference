@@ -152,3 +152,6 @@ for a in range(6):
 
 for a in range(3, 6):
     print(a)
+
+for a in range(3, 20, 2):
+    print(a)
