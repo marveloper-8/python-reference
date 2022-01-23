@@ -113,3 +113,7 @@ e.printmessage()
 
 # sum
 print(sum((1, 2, 3, 4, 5)))
+print(sum((1, 2, 3, 4, 5), 7))
+
+# str
+print(str(3.5))
