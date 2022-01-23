@@ -17,3 +17,6 @@ print(any({0: 'Apple', 1: 'Orange'}))
 
 # ascii
 print(ascii('My name is Ståle'))
+
+# binary
+print(bin(36))
