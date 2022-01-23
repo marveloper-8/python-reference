@@ -141,3 +141,7 @@ print(set(("apple", "banana", "cherry")))
 # round
 print(round(5.76543, 2))
 print(round(5.76543))
+
+# reversed
+for g in reversed(["a", "b", "c", "d"]):
+    print(g)
