@@ -92,3 +92,6 @@ print(vars(Person))
 print(type(('apple', 'banana', 'cherry')))
 print(type("Hello World!"))
 print(type(33))
+
+#tuple
+print(tuple(('apple', 'banana', 'cherry')))
