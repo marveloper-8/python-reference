@@ -53,14 +53,14 @@ print(complex(3, 5))
 print(complex('3+5j'))
 
 # delattr
-class Person:
+class A:
     name = 'John'
     age = 36
     country = 'Norway'
 
-# delattr(Person, 'age')
+# delattr(A, 'age')
 
-print(Person.age)
+print(A.age)
 
 # dict
 print(dict(
@@ -70,7 +70,7 @@ print(dict(
 ))
 
 # dir
-print(dir(Person))
+print(dir(A))
 
 # divmod
 print(divmod(5, 2))
@@ -86,12 +86,27 @@ print(
 )
 
 # vars
-print(vars(Person))
+print(vars(A))
 
 # type
 print(type(('apple', 'banana', 'cherry')))
 print(type("Hello World!"))
 print(type(33))
 
-#tuple
+# tuple
 print(tuple(('apple', 'banana', 'cherry')))
+
+# super
+class B:
+    def __init__(self, txt):
+        self.message = txt
+
+    def printmessage(self):
+        print(self.message)
+
+class C(B):
+    def __init__(self, txt):
+        super().__init__(txt)
+
+e = C("Hello, and welcome!")
+e.printmessage()
