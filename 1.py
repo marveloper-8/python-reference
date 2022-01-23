@@ -33,8 +33,10 @@ print(bytes(4))
 # callable
 def a():
     b = 5
-
 print(callable(a))
 
 b = 5
 print(callable(b))
+
+# chr
+print(chr(97))
