@@ -80,7 +80,7 @@ print(
     tuple(
         zip(
             ("John", "Charles", "Mike"),
-            ("Jenny", "Christy", "Monica")
+            ("Jenny", "Christy", "Monica", "Vicky")
         )
     )
 )
