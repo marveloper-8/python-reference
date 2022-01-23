@@ -122,3 +122,4 @@ print(int("12"))
 # sorted
 print(sorted(("b", "g", "a", "d", "f", "c", "h", "e")))
 print(sorted((1, 11, 2)))
+print(sorted(("h", "b", "a", "c", "f", "d", "e", "g"), reverse=True))
