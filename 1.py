@@ -68,3 +68,4 @@ print(dict(
     country="Norway"
 ))
 
+print(dir(Person))
