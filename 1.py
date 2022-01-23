@@ -14,3 +14,6 @@ print(any([False, True, False]))
 print(any((0, 1, False)))
 print(any({0, 1, 0}))
 print(any({0: 'Apple', 1: 'Orange'}))
+
+# ascii
+print(ascii('My name is Ståle'))
