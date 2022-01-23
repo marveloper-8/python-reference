@@ -62,12 +62,25 @@ class Person:
 
 print(Person.age)
 
+# dict
 print(dict(
     name="John",
     age=36,
     country="Norway"
 ))
 
+# dir
 print(dir(Person))
 
+# divmod
 print(divmod(5, 2))
+
+# zip
+print(
+    tuple(
+        zip(
+            ("John", "Charles", "Mike"),
+            ("Jenny", "Christy", "Monica")
+        )
+    )
+)
