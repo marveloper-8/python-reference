@@ -84,3 +84,6 @@ print(
         )
     )
 )
+
+# vars
+print(vars(Person))
