@@ -118,3 +118,6 @@ print(sum((1, 2, 3, 4, 5), 7))
 # str
 print(str(3.5))
 print(int("12"))
+
+# sorted
+print(sorted(("b", "g", "a", "d", "f", "c", "h", "e")))
