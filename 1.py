@@ -47,3 +47,6 @@ exec(c)
 
 d = compile('print(55)\nprint(88)', 'test', 'exec')
 exec(d)
+
+# complex
+print(complex(3, 5))
