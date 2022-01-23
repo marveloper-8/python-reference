@@ -20,3 +20,6 @@ print(ascii('My name is Ståle'))
 
 # binary
 print(bin(36))
+
+# boolean
+print(bool(1))
