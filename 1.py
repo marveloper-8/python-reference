@@ -23,3 +23,6 @@ print(bin(36))
 
 # boolean
 print(bool(1))
+
+# bytearray
+print(bytearray(4))
