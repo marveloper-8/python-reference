@@ -35,3 +35,6 @@ def a():
     b = 5
 
 print(callable(a))
+
+b = 5
+print(callable(b))
