@@ -26,3 +26,6 @@ print(bool(1))
 
 # bytearray
 print(bytearray(4))
+
+# bytes
+print(bytes(4))
