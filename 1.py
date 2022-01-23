@@ -149,3 +149,6 @@ for a in reversed(["a", "b", "c", "d"]):
 # range
 for a in range(6):
     print(a)
+
+for a in range(3, 6):
+    print(a)
