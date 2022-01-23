@@ -29,3 +29,9 @@ print(bytearray(4))
 
 # bytes
 print(bytes(4))
+
+# callable
+def a():
+    b = 5
+
+print(callable(a))
