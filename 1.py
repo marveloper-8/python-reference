@@ -143,5 +143,9 @@ print(round(5.76543, 2))
 print(round(5.76543))
 
 # reversed
-for g in reversed(["a", "b", "c", "d"]):
-    print(g)
+for a in reversed(["a", "b", "c", "d"]):
+    print(a)
+
+# range
+for a in range(6):
+    print(a)
