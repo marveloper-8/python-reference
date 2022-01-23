@@ -50,3 +50,4 @@ exec(d)
 
 # complex
 print(complex(3, 5))
+print(complex('3+5j'))
