@@ -110,3 +110,6 @@ class C(B):
 
 e = C("Hello, and welcome!")
 e.printmessage()
+
+# sum
+print(sum((1, 2, 3, 4, 5)))
