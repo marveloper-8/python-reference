@@ -87,3 +87,8 @@ print(
 
 # vars
 print(vars(Person))
+
+# type
+print(type(('apple', 'banana', 'cherry')))
+print(type("Hello World!"))
+print(type(33))
