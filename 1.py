@@ -137,3 +137,6 @@ print(getattr(A, 'age'))
 
 # set
 print(set(("apple", "banana", "cherry")))
+
+# round
+print(round(5.76543, 2))
