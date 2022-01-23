@@ -40,3 +40,7 @@ print(callable(b))
 
 # chr
 print(chr(97))
+
+# compile
+c = compile('print(55)', 'test', 'eval')
+exec(c)
