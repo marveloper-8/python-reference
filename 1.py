@@ -44,3 +44,6 @@ print(chr(97))
 # compile
 c = compile('print(55)', 'test', 'eval')
 exec(c)
+
+d = compile('print(55)\nprint(88)', 'test', 'exec')
+exec(d)
