@@ -130,3 +130,7 @@ f = ("a", "b", "c", "d", "e", "f", "g", "h")
 print(f[slice(2)])
 print(f[slice(3, 5)])
 print(f[slice(0, 8, 3)])
+
+# set attr
+setattr(A, 'age', 40)
+print(getattr(A, 'age'))
