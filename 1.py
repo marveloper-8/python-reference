@@ -69,3 +69,5 @@ print(dict(
 ))
 
 print(dir(Person))
+
+print(divmod(5, 2))
