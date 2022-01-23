@@ -51,3 +51,13 @@ exec(d)
 # complex
 print(complex(3, 5))
 print(complex('3+5j'))
+
+# delattr
+class Person:
+    name = 'John'
+    age = 36
+    country = 'Norway'
+
+delattr(Person, 'age')
+
+print(Person.age)
