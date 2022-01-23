@@ -58,6 +58,13 @@ class Person:
     age = 36
     country = 'Norway'
 
-delattr(Person, 'age')
+# delattr(Person, 'age')
 
 print(Person.age)
+
+print(dict(
+    name="John",
+    age=36,
+    country="Norway"
+))
+
