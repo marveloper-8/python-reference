@@ -339,3 +339,6 @@ print(o)
 
 # object
 print(object())
+
+# oct
+print(oct(12))
