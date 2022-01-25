@@ -161,3 +161,9 @@ print("Hello World")
 print("Hello", "how are you?")
 print(("apple", "banana", "cherry"))
 print("Hello", "how are you?", sep="---")
+
+# enumerate
+# print(list(enumerate("apple", "banana", "cherry")))
+
+# eval
+eval('print(55)')
