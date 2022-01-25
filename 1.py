@@ -306,3 +306,4 @@ print(max((1, 5, 3, 9)))
 # memory view
 print(memoryview(b"Hello"))
 print(memoryview(b"Hello")[0])
+print(memoryview(b"Hello")[1])
