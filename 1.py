@@ -158,3 +158,4 @@ for a in range(3, 20, 2):
 
 # print
 print("Hello World")
+print("Hello", "how are you?")
