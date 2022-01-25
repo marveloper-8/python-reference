@@ -312,3 +312,15 @@ print(memoryview(b"Hello")[1])
 print(min(5, 10))
 print(min("Mike", "John", "Vicky"))
 print(min((1, 5, 3, 9)))
+
+# next
+m = iter(["apple", "banana", "cherry"])
+
+n = next(m)
+print(n)
+
+n = next(m)
+print(n)
+
+n = next(m)
+print(n)
