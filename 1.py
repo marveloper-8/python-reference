@@ -284,3 +284,6 @@ print(len("Hello"))
 
 # list
 print(list(("apple", "banana", "cherry")))
+
+# locals
+print(locals())
