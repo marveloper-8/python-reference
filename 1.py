@@ -237,3 +237,6 @@ print(pow(4, 3, 5))
 
 # ord
 print(ord("h"))
+
+# hex
+print(hex(255))
