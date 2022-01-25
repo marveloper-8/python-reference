@@ -216,6 +216,9 @@ print(format(53, "%"))
 # frozenset
 print(frozenset(["apple", "banana", "cherry"]))
 
-i = frozenset(["apple", "banana", "cherry"])
-i[1] = "strawberry"
-print(i)
+# i = frozenset(["apple", "banana", "cherry"])
+# i[1] = "strawberry"
+# print(i)
+
+# get attr
+print(getattr(A, 'age'))
