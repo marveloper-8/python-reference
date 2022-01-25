@@ -336,3 +336,6 @@ print(o)
 
 o = next(m, "orange")
 print(o)
+
+# object
+print(object())
