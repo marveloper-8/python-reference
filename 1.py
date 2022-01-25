@@ -280,3 +280,4 @@ print(next(k))
 
 # len
 print(len(["apple", "banana", "cherry"]))
+print(len("Hello"))
