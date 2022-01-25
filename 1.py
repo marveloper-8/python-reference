@@ -170,3 +170,15 @@ eval('print(55)')
 
 # exec
 exec('name = "John"\nprint(name)')
+
+# filter
+g = [5, 12, 17, 18, 24, 32]
+def h(a):
+    if a < 18:
+        return False
+    else:
+        return True
+
+i = filter(h, g)
+for a in i:
+    print(a)
