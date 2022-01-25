@@ -186,3 +186,6 @@ for a in i:
 # float
 print(float(3))
 print(float("3.500"))
+
+# format
+print(format(0.5, "%"))
