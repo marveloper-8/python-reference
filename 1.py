@@ -234,3 +234,6 @@ print(hasattr(A, 'age'))
 # pow
 print(pow(4, 3))
 print(pow(4, 3, 5))
+
+# ord
+print(ord("h"))
