@@ -316,11 +316,23 @@ print(min((1, 5, 3, 9)))
 # next
 m = iter(["apple", "banana", "cherry"])
 
-n = next(m)
-print(n)
+# n = next(m)
+# print(n)
 
-n = next(m)
-print(n)
+# n = next(m)
+# print(n)
 
-n = next(m)
-print(n)
+# n = next(m)
+# print(n)
+
+o = next(m, "orange")
+print(o)
+
+o = next(m, "orange")
+print(o)
+
+o = next(m, "orange")
+print(o)
+
+o = next(m, "orange")
+print(o)
