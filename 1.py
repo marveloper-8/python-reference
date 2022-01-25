@@ -226,3 +226,4 @@ print(getattr(A, 'page', 'my message'))
 
 # globals
 print(globals())
+print(globals()["__file__"])
