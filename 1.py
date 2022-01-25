@@ -185,3 +185,4 @@ for a in i:
 
 # float
 print(float(3))
+print(float("3.500"))
