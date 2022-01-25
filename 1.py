@@ -182,3 +182,6 @@ def h(a):
 i = filter(h, g)
 for a in i:
     print(a)
+
+# float
+print(float(3))
