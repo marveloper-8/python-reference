@@ -271,3 +271,9 @@ class F(E):
     age = E
 
 print(issubclass(F, E))
+
+# iterator
+k = iter(["apple", "banana", "cherry"])
+print(next(k))
+print(next(k))
+print(next(k))
