@@ -245,7 +245,10 @@ print(hex(255))
 print(id(("apple", "banana", "cherry")))
 
 # input
-print("Enter your name:")
-print("Hello, " + input())
+# print("Enter your name:")
+# print("Hello, " + input())
 
-print("Hello, " + input('Enter your name'))
+# print("Hello, " + input('Enter your name'))
+
+# int
+print(int(3.5))
