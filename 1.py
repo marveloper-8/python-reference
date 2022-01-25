@@ -243,3 +243,7 @@ print(hex(255))
 
 # id
 print(id(("apple", "banana", "cherry")))
+
+# input
+print("Enter your name:")
+print("Hello, " + input())
