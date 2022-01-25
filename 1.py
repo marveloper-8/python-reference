@@ -310,3 +310,4 @@ print(memoryview(b"Hello")[1])
 
 # min
 print(min(5, 10))
+print(min("Mike", "John", "Vicky"))
