@@ -230,3 +230,6 @@ print(globals()["__file__"])
 
 # has attr
 print(hasattr(A, 'age'))
+
+# pow
+print(pow(4, 3))
