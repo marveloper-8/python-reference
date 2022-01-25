@@ -277,3 +277,6 @@ k = iter(["apple", "banana", "cherry"])
 print(next(k))
 print(next(k))
 print(next(k))
+
+# len
+print(len(["apple", "banana", "cherry"]))
