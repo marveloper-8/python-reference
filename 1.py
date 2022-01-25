@@ -167,3 +167,6 @@ print("Hello", "how are you?", sep="---")
 
 # eval
 eval('print(55)')
+
+# exec
+exec('name = "John"\nprint(name)')
