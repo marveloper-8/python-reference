@@ -261,3 +261,13 @@ class D:
     name = "John"
 j = D()
 print(isinstance(j, D))
+
+# is sub class
+class E:
+    age = 36
+
+class F(E):
+    name = "John"
+    age = E
+
+print(issubclass(F, E))
