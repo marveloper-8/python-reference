@@ -253,3 +253,6 @@ print(id(("apple", "banana", "cherry")))
 # int
 print(int(3.5))
 print(int("12"))
+
+# is instance
+print(isinstance(5, int))
