@@ -222,3 +222,4 @@ print(frozenset(["apple", "banana", "cherry"]))
 
 # get attr
 print(getattr(A, 'age'))
+print(getattr(A, 'page', 'my message'))
