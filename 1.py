@@ -297,3 +297,6 @@ print(map(l, ("apple", "banana", "cherry")))
 def m(a, b):
     return a + b
 print(map(m, ("apple", "banana", "cherry"), ("orange", "lemon", "pineapple")))
+
+# max
+print(max(5, 10))
