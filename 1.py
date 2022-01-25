@@ -256,3 +256,4 @@ print(int("12"))
 
 # is instance
 print(isinstance(5, int))
+print(isinstance("Hello", (float, int, str, list, dict, tuple)))
