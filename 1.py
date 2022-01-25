@@ -287,3 +287,4 @@ print(list(("apple", "banana", "cherry")))
 
 # locals
 print(locals())
+print(locals()["__file__"])
