@@ -252,3 +252,4 @@ print(id(("apple", "banana", "cherry")))
 
 # int
 print(int(3.5))
+print(int("12"))
