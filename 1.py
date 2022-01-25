@@ -189,3 +189,4 @@ print(float("3.500"))
 
 # format
 print(format(0.5, "%"))
+print(format(0.5, "<"))
