@@ -227,3 +227,6 @@ print(getattr(A, 'page', 'my message'))
 # globals
 print(globals())
 print(globals()["__file__"])
+
+# has attr
+print(hasattr(A, 'age'))
