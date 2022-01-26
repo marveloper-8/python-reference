@@ -41,3 +41,5 @@ print(c.expandtabs(10))
 
 # find
 print(b.find("welcome"))
+print(b.find("e"))
+print(b.find("e", 5, 10))
