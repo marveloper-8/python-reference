@@ -8,3 +8,4 @@ print("Hello, And Welcome To My World!".casefold())
 
 # center
 print("banana".center(20))
+print("banana".center(20, "O"))
