@@ -48,3 +48,5 @@ print(b.find("e", 5, 10))
 
 # format
 print("For only {price:.2f} dollars!".format(price=49))
+print("My name is {fname}, I'm {age}".format(fname="John", age=36))
+print("My name is {0}, I'm {1}".format("John", 36))
