@@ -159,3 +159,8 @@ print("Company123".isascii())
 
 # isdecimal
 print("\u0033".isdecimal())
+print("\u0030".isdecimal())
+print("\u0047".isdecimal())
+
+# is digit
+print("50800".isdigit())
