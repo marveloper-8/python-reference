@@ -114,3 +114,4 @@ print("Good night Sam!".translate({
 # title
 print("Welcome to my world".title())
 print("Welcome to my 2nd world".title())
+print("hello b2b2b2 and 3g3g3g".title())
