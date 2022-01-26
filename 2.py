@@ -136,3 +136,6 @@ print("welcome to the jungle".split())
 print("hello, my name is Peter, I am 26 years old".split(", "))
 print("apple#banana#cherry#orange".split("#"))
 print("apple#banana#cherry#orange".split("#", 1))
+
+# rstrip
+print("of all fruits", "     banana     ".rstrip(), "is my favourite")
