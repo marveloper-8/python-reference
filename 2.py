@@ -98,3 +98,4 @@ print("Hello my friends".upper())
 # translate
 print("Hello Sam!".translate({83: 80}))
 print("Hello Sam!".translate("Hello Sam!".maketrans("S", "P")))
+print("Good night Sam!".translate("Good night Sam!".maketrans("mSa", "eJo", "odnght")))
