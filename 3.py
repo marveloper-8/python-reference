@@ -5,3 +5,6 @@ print(a)
 b = ["Ford", "BMW", "Volvo"]
 a.append(b)
 print(a)
+
+a.clear()
+print(a)
