@@ -7,6 +7,7 @@ b = ('key1', 'key2', 'key3')
 
 # fromkeys
 print(dict.fromkeys(b, 0))
+print(dict.fromkeys(b))
 
 # copy
 print(a.copy())
