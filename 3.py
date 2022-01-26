@@ -13,6 +13,8 @@ print(c.count(9))
 a.extend(e)
 print(a)
 
+print(a.index("cherry"))
+
 # a.extend(b)
 # print(a)
 
