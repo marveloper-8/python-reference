@@ -115,3 +115,6 @@ print("Good night Sam!".translate({
 print("Welcome to my world".title())
 print("Welcome to my 2nd world".title())
 print("hello b2b2b2 and 3g3g3g".title())
+
+# swapcase
+print("Hello My Name is PETER".swapcase())
