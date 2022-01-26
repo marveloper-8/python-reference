@@ -22,3 +22,7 @@ print(a.encode(encoding="ascii", errors="ignore"))
 print(a.encode(encoding="ascii", errors="namereplace"))
 print(a.encode(encoding="ascii", errors="replace"))
 print(a.encode(encoding="ascii", errors="xmlcharrefreplace"))
+
+# ends with
+b = "Hello, welcome to my world."
+print(b.endswith("."))
