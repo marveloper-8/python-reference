@@ -38,3 +38,6 @@ print(c.expandtabs())
 print(c.expandtabs(2))
 print(c.expandtabs(4))
 print(c.expandtabs(10))
+
+# find
+print(b.find("welcome"))
