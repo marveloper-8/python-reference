@@ -99,3 +99,14 @@ print("Hello my friends".upper())
 print("Hello Sam!".translate({83: 80}))
 print("Hello Sam!".translate("Hello Sam!".maketrans("S", "P")))
 print("Good night Sam!".translate("Good night Sam!".maketrans("mSa", "eJo", "odnght")))
+print("Good night Sam!".translate({
+    109: 101,
+    83: 74,
+    97: 11,
+    111: None,
+    100: None,
+    110: None,
+    103: None,
+    104: None,
+    116: None
+}))
