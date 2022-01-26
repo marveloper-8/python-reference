@@ -195,3 +195,10 @@ print("Hello!\nAre you #1?".isprintable())
 # isspace
 print("     ".isspace())
 print("   s    ".isspace())
+
+# istitle
+print("Hello, And Welcome To My World!".istitle())
+print("HELLO, AND WELCOME TO MY WORLD".istitle())
+print("Hello".istitle())
+print("22 Names".istitle())
+print("This Is %'!?".istitle())
