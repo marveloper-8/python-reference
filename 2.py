@@ -169,3 +169,10 @@ print("\u00B2".isdigit())
 
 # isidentifier
 print("Demo".isidentifier())
+print("MYFolder".isidentifier())
+print("Demo002".isidentifier())
+print("2bring".isidentifier())
+print("my demo".isidentifier())
+
+# islower
+print("hello world!".islower())
