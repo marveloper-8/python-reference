@@ -208,3 +208,7 @@ print("THIS IS NOW!".isupper())
 print("Hello World!".isupper())
 print("hello 123".isupper())
 print("MY NAME IS PETER".isupper())
+
+# join
+print("#".join(("John", "Peter", "Vicky")))
+print("TEST".join({"name": "John", "country": "Norway"}))
