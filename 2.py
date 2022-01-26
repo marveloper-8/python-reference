@@ -202,3 +202,9 @@ print("HELLO, AND WELCOME TO MY WORLD".istitle())
 print("Hello".istitle())
 print("22 Names".istitle())
 print("This Is %'!?".istitle())
+
+# isupper
+print("THIS IS NOW!".isupper())
+print("Hello World!".isupper())
+print("hello 123".isupper())
+print("MY NAME IS PETER".isupper())
