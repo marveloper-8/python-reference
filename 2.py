@@ -215,3 +215,4 @@ print("TEST".join({"name": "John", "country": "Norway"}))
 
 # ljust
 print("banana".ljust(20), "is my favorite fruit.")
+print("banana".ljust(20, "O"))
