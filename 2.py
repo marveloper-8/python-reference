@@ -12,3 +12,4 @@ print("banana".center(20, "O"))
 
 # count
 print("I love apples, apple are my favourite fruit".count("apple"))
+print("I love apples, apple are my favorite fruit".count("apple", 10, 24))
