@@ -342,3 +342,7 @@ print(object())
 
 # oct
 print(oct(12))
+
+# open
+p = open("demofile.txt", "x")
+print(f.create())
