@@ -110,3 +110,6 @@ print("Good night Sam!".translate({
     104: None,
     116: None
 }))
+
+# title
+print("Welcome to my world".title())
