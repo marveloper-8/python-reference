@@ -139,3 +139,4 @@ print("apple#banana#cherry#orange".split("#", 1))
 
 # rstrip
 print("of all fruits", "     banana     ".rstrip(), "is my favourite")
+print("banana,,,,,ssqqqww.....".rstrip(",.qsw"))
