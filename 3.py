@@ -1,14 +1,20 @@
 a = ["apple", "banana", "cherry"]
+b = ["Ford", "BMW", "Volvo"]
+c = [1, 4, 2, 9, 7, 8, 9, 3, 1]
 
-b = a.copy()
-print(b)
+d = a.copy()
+print(d)
 
 print(a.count("cherry"))
+
+print(c.count(9))
+
+a.extend(b)
+print(a)
 
 # a.append("orange")
 # print(a)
 
-# b = ["Ford", "BMW", "Volvo"]
 # a.append(b)
 # print(a)
 
