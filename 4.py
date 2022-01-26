@@ -3,5 +3,10 @@ a = {
     "model": "Mustang",
     "year": 1964
 }
-a.clear()
-print(a)
+
+# copy
+print(a.copy())
+
+# clear
+# a.clear()
+# print(a)
