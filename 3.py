@@ -10,6 +10,17 @@ g = ["Ford", "Mitsubishi", "BMW", "VW"]
 g.sort(key=d)
 print(g)
 
+def h(a):
+    return a['year']
+i = [
+    {'car': 'Ford', 'year': 2005},
+    {'car': 'Mitsubishi', 'year': 2000},
+    {'car': 'BMW', 'year': 2019},
+    {'car': 'VW', 'year': 2011}
+]
+i.sort(key=h)
+print(i)
+
 # b.sort(reverse=True)
 # print(b)
 
