@@ -85,3 +85,6 @@ print("Company 12".isalnum())
 # isalpha
 print("CompanyX".isalpha())
 print("Company10".isalpha())
+
+# zfill
+print("50".zfill(10))
