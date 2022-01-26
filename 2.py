@@ -121,3 +121,4 @@ print("Hello My Name is PETER".swapcase())
 
 # strip
 print("of all fruits", "     banana     ".strip(), "is my favorite")
+print(",,,,,rrttgg.....banana.....rrr".strip(",.grt"))
