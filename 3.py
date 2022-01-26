@@ -7,7 +7,7 @@ f = [4, 55, 64, 32, 16, 32]
 def d(a):
     return len(a)
 g = ["Ford", "Mitsubishi", "BMW", "VW"]
-g.sort(key=d)
+g.sort(reverse=True, key=d)
 print(g)
 
 def h(a):
