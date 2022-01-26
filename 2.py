@@ -91,3 +91,6 @@ print("50".zfill(10))
 print("hello".zfill(10))
 print("welcome to the jungle".zfill(10))
 print("10.000".zfill(10))
+
+# upper
+print("Hello my friends".upper())
