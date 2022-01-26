@@ -28,3 +28,7 @@ b = "Hello, welcome to my world."
 print(b.endswith("."))
 print(b.endswith("my world."))
 print(b.endswith("my world.", 5, 11))
+
+# expand tabs
+c = "H\te\tl\tl\to"
+print(c.expandtabs(2))
