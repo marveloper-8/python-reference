@@ -75,3 +75,5 @@ print("You scored {:.0%}".format(0.25))
 # index
 print(b.index("welcome"))
 print(b.index("e", 5, 10))
+print(b.find("q"))
+print(b.index("q"))
