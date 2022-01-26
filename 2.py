@@ -5,3 +5,6 @@ print("36 is my age.".capitalize())
 
 # casefold
 print("Hello, And Welcome To My World!".casefold())
+
+# center
+print("banana".center(20))
