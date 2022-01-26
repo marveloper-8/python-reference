@@ -164,3 +164,8 @@ print("\u0047".isdecimal())
 
 # is digit
 print("50800".isdigit())
+print("\u0030".isdigit())
+print("\u00B2".isdigit())
+
+# isidentifier
+print("Demo".isidentifier())
