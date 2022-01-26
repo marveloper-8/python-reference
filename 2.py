@@ -176,3 +176,14 @@ print("my demo".isidentifier())
 
 # islower
 print("hello world!".islower())
+print("Hello world!".islower())
+print("hello 123".islower())
+print("mynameisPeter".islower())
+
+# isnumeric
+print("565543".isnumeric())
+print("\u0030".isnumeric())
+print("\u00B2".isnumeric())
+print("10km2".isnumeric())
+print("-1".isnumeric())
+print("1.5".isnumeric())
