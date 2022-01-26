@@ -156,3 +156,6 @@ print("banana".rjust(20, "o"))
 
 # isascii
 print("Company123".isascii())
+
+# isdecimal
+print("\u0033".isdecimal())
