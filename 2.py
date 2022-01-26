@@ -80,3 +80,4 @@ print(b.index("e", 5, 10))
 
 # isalnum
 print("Company12".isalnum())
+print("Company 12".isalnum())
