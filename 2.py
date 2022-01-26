@@ -32,3 +32,9 @@ print(b.endswith("my world.", 5, 11))
 # expand tabs
 c = "H\te\tl\tl\to"
 print(c.expandtabs(2))
+
+print(c)
+print(c.expandtabs())
+print(c.expandtabs(2))
+print(c.expandtabs(4))
+print(c.expandtabs(10))
