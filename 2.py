@@ -26,3 +26,4 @@ print(a.encode(encoding="ascii", errors="xmlcharrefreplace"))
 # ends with
 b = "Hello, welcome to my world."
 print(b.endswith("."))
+print(b.endswith("my world."))
