@@ -187,3 +187,7 @@ print("\u00B2".isnumeric())
 print("10km2".isnumeric())
 print("-1".isnumeric())
 print("1.5".isnumeric())
+
+# isprintable
+print("Hello! Are you #1?".isprintable())
+print("Hello!\nAre you #1?".isprintable())
