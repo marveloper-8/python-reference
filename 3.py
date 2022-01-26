@@ -4,8 +4,11 @@ c = [1, 4, 2, 9, 7, 8, 9, 3, 1]
 e = (1, 4, 5, 9)
 f = [4, 55, 64, 32, 16, 32]
 
-a.reverse()
-print(a)
+b.sort()
+print(b)
+
+# a.reverse()
+# print(a)
 
 # a.remove("banana")
 # print(a)
