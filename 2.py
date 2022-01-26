@@ -18,3 +18,4 @@ print("I love apples, apple are my favorite fruit".count("apple", 10, 24))
 a = "My name is Ståle"
 print(a.encode())
 print(a.encode(encoding="ascii", errors="backslashreplace"))
+print(a.encode(encoding="ascii", errors="ignore"))
