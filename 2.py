@@ -144,3 +144,7 @@ print("banana,,,,,ssqqqww.....".rstrip(",.qsw"))
 # rsplit
 print("apple, banana, cherry".rsplit(", "))
 print("apple, banana, cherry".rsplit(", ", 1))
+
+# rpartition
+d = "I could eat bananas all day, bananas are my favourite fruit"
+print(d.rpartition("bananas"))
