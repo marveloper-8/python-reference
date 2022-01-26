@@ -153,3 +153,6 @@ print(d.rpartition("apples"))
 # rjust
 print("banana".rjust(20), "is my favorite fruit.")
 print("banana".rjust(20, "o"))
+
+# isascii
+print("Company123".isascii())
