@@ -71,3 +71,6 @@ print("The Hexadecimal version of {0} is {0:x}".format(255))
 print("The Hexadecimal version of {0} is {0:X}".format(255))
 print("You scored {:%}".format(0.25))
 print("You scored {:.0%}".format(0.25))
+
+# index
+print(b.index("welcome"))
