@@ -94,3 +94,6 @@ print("10.000".zfill(10))
 
 # upper
 print("Hello my friends".upper())
+
+# translate
+print("Hello Sam!".translate({83: 80}))
