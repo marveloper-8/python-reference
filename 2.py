@@ -43,5 +43,8 @@ print(c.expandtabs(10))
 print(b.find("welcome"))
 print(b.find("e"))
 print(b.find("e", 5, 10))
-print(b.find("q"))
-print(b.index("q"))
+# print(b.find("q"))
+# print(b.index("q"))
+
+# format
+print("For only {price:.2f} dollars!".format(price=49))
