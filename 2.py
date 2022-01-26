@@ -149,3 +149,6 @@ print("apple, banana, cherry".rsplit(", ", 1))
 d = "I could eat bananas all day, bananas are my favourite fruit"
 print(d.rpartition("bananas"))
 print(d.rpartition("apples"))
+
+# rjust
+print("banana".rjust(20), "is my favorite fruit.")
