@@ -143,3 +143,4 @@ print("banana,,,,,ssqqqww.....".rstrip(",.qsw"))
 
 # rsplit
 print("apple, banana, cherry".rsplit(", "))
+print("apple, banana, cherry".rsplit(", ", 1))
