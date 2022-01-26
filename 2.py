@@ -19,3 +19,4 @@ a = "My name is Ståle"
 print(a.encode())
 print(a.encode(encoding="ascii", errors="backslashreplace"))
 print(a.encode(encoding="ascii", errors="ignore"))
+print(a.encode(encoding="ascii", errors="namereplace"))
