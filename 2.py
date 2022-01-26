@@ -118,3 +118,6 @@ print("hello b2b2b2 and 3g3g3g".title())
 
 # swapcase
 print("Hello My Name is PETER".swapcase())
+
+# strip
+print("of all fruits", "     banana     ".strip(), "is my favorite")
