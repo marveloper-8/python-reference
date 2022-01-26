@@ -129,3 +129,4 @@ print("hello, welcome to my world.".startswith("wel", 7, 20))
 
 # splitlines
 print("Thank you for the music\nWelcome to the jungle".splitlines())
+print("Thank you for the music\nWelcome to the jungle".splitlines(True))
