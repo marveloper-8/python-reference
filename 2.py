@@ -125,3 +125,4 @@ print(",,,,,rrttgg.....banana.....rrr".strip(",.grt"))
 
 # startswith
 print("Hello, welcome to my world.".startswith("Hello"))
+print("hello, welcome to my world.".startswith("wel", 7, 20))
