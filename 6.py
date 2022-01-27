@@ -30,3 +30,7 @@ e = {"f", "g", "c"}
 # intersection
 print(a.intersection(b))
 print(c.intersection(d, e))
+
+# intersection update
+print(a.intersection_update(b))
+print(a)
