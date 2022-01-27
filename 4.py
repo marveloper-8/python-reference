@@ -5,9 +5,16 @@ a = {
 }
 b = ('key1', 'key2', 'key3')
 
+# values
+print(a.values())
+
 # setdefault
-print(a.setdefault("model", "Bronco"))
-print(a.setdefault("color", "white"))
+# print(a.setdefault("model", "Bronco"))
+# print(a.setdefault("color", "white"))
+
+# update
+# print(a.update({"color": "white"}))
+# print(a)
 
 # popitem
 # a.popitem()
