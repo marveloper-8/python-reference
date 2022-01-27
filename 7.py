@@ -28,8 +28,10 @@ b = open("demofile2.txt", "a")
 # print(a.tell())
 # print()
 
-b.truncate(20)
-b.close()
+# b.truncate(20)
+# b.close()
 
-b = open("demofile2.txt", "r")
-print(b.read())
+# b = open("demofile2.txt", "r")
+# print(b.read())
+
+print(b.writable())
