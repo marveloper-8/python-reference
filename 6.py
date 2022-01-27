@@ -11,8 +11,15 @@ b = {"google", "microsoft", "apple"}
 # print(a)
 
 # copy
-print(a.copy())
+# print(a.copy())
 
 # difference
-print(a.difference(b))
-print(b.difference(a))
+# print(a.difference(b))
+# print(b.difference(a))
+
+# difference update
+# print(a.difference_update(b))
+
+# discard
+a.discard("banana")
+print(a)
