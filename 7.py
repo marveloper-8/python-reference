@@ -1,4 +1,4 @@
-a = open("demofile.txt", "r")
+a = open("demofile.txt", "a")
 b = open("demofile2.txt", "a")
 
 # print(a.read())
@@ -36,8 +36,14 @@ b = open("demofile2.txt", "a")
 
 # print(b.writable())
 
-b.write("\nSee you soon!")
-b.close()
+# b.write("\nSee you soon!")
+# b.close()
 
-b = open("demofile2.txt", "r")
-print(b.read())
+# b = open("demofile2.txt", "r")
+# print(b.read())
+
+a.writelines(["See you soon!", "Over and out."])
+a.close()
+
+a = open("demofile.txt", "r")
+print(a.read())
