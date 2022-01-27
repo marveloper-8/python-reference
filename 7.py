@@ -36,7 +36,7 @@ b = open("demofile2.txt", "a")
 
 # print(b.writable())
 
-b.write("See you soon!")
+b.write("\nSee you soon!")
 b.close()
 
 b = open("demofile2.txt", "r")
