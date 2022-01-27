@@ -7,6 +7,7 @@ b = ('key1', 'key2', 'key3')
 
 # setdefault
 print(a.setdefault("model", "Bronco"))
+print(a.setdefault("color", "white"))
 
 # popitem
 # a.popitem()
