@@ -1,5 +1,8 @@
 a = {"apple", "banana", "cherry"}
 b = {"google", "microsoft", "apple"}
+c = {"a", "b", "c"}
+d = {"c", "d", "e"}
+e = {"f", "g", "c"}
 
 # add
 # a.add("orange")
@@ -26,3 +29,4 @@ b = {"google", "microsoft", "apple"}
 
 # intersection
 print(a.intersection(b))
+print(c.intersection(d, e))
