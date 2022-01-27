@@ -55,4 +55,8 @@ print(h.issuperset(c))
 # pop
 # a.pop()
 # print(a)
-print(a.pop())
+# print(a.pop())
+
+# remove
+a.remove("banana")
+print(a)
