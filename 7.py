@@ -16,3 +16,4 @@ a = open("demofile.txt", "r")
 # print(a.readable())
 
 print(a.readline())
+print(a.readline())
