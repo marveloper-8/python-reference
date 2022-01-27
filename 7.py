@@ -10,7 +10,9 @@ a = open("demofile.txt", "r")
 # b.flush()
 # b.write("...add another one!")
 
-print(a.isatty())
-print(a.read())
-print(a.read(33))
-print(a.readable())
+# print(a.isatty())
+# print(a.read())
+# print(a.read(33))
+# print(a.readable())
+
+print(a.readline())
