@@ -15,5 +15,5 @@ a = open("demofile.txt", "r")
 # print(a.read(33))
 # print(a.readable())
 
-print(a.readline())
-print(a.readline())
+print(a.readline(5))
+# print(a.readline())
