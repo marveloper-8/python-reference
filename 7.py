@@ -11,3 +11,4 @@ a = open("demofile.txt", "r")
 # b.write("...add another one!")
 
 print(a.isatty())
+print(a.read())
