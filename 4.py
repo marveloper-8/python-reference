@@ -7,6 +7,8 @@ b = ('key1', 'key2', 'key3')
 
 # values
 print(a.values())
+a["year"] = 2018
+print(a.values())
 
 # setdefault
 # print(a.setdefault("model", "Bronco"))
