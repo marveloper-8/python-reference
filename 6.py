@@ -21,5 +21,8 @@ b = {"google", "microsoft", "apple"}
 # print(a.difference_update(b))
 
 # discard
-a.discard("banana")
-print(a)
+# a.discard("banana")
+# print(a)
+
+# intersection
+print(a.intersection(b))
