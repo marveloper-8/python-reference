@@ -42,7 +42,7 @@ b = open("demofile2.txt", "a")
 # b = open("demofile2.txt", "r")
 # print(b.read())
 
-a.writelines(["See you soon!", "Over and out."])
+a.writelines(["\nSee you soon!", "\nOver and out."])
 a.close()
 
 a = open("demofile.txt", "r")
