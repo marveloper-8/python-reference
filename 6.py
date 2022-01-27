@@ -41,3 +41,4 @@ print(c.intersection(d, e))
 
 # isdisjoint
 print(a.isdisjoint(f))
+print(a.isdisjoint(b))
