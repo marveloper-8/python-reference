@@ -18,4 +18,6 @@ a = open("demofile.txt", "r")
 # print(a.readline(5))
 # print(a.readline())
 
-print(a.readlines(33))
+# print(a.readlines(33))
+a.seek(4)
+print(a.readline())
