@@ -6,8 +6,8 @@ a = {
 b = ('key1', 'key2', 'key3')
 
 # pop
-a.pop("model")
-print(a)
+# a.pop("model")
+print(a.pop("model"))
 
 # fromkeys
 # print(dict.fromkeys(b, 0))
