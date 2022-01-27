@@ -5,12 +5,16 @@ a = {
 }
 b = ('key1', 'key2', 'key3')
 
+# pop
+a.pop("model")
+print(a)
+
 # fromkeys
-print(dict.fromkeys(b, 0))
-print(dict.fromkeys(b))
+# print(dict.fromkeys(b, 0))
+# print(dict.fromkeys(b))
 
 # copy
-print(a.copy())
+# print(a.copy())
 
 # clear
 # a.clear()
