@@ -3,6 +3,7 @@ b = {"google", "microsoft", "apple"}
 c = {"a", "b", "c"}
 d = {"c", "d", "e"}
 e = {"f", "g", "c"}
+f = {"google", "microsoft", "facebook"}
 
 # add
 # a.add("orange")
@@ -32,8 +33,11 @@ print(a.intersection(b))
 print(c.intersection(d, e))
 
 # intersection update
-print(a.intersection_update(b))
-print(a)
+# print(a.intersection_update(b))
+# print(a)
 
-c.intersection_update(d, e)
-print(c)
+# c.intersection_update(d, e)
+# print(c)
+
+# isdisjoint
+print(a.isdisjoint(f))
