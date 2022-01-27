@@ -34,3 +34,6 @@ print(c.intersection(d, e))
 # intersection update
 print(a.intersection_update(b))
 print(a)
+
+c.intersection_update(d, e)
+print(c)
