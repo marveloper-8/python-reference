@@ -65,6 +65,9 @@ print(h.issuperset(c))
 print(a.symmetric_difference(b))
 
 # symmetric difference update
-a.symmetric_difference_update(b)
-print(a)
+# a.symmetric_difference_update(b)
+# print(a)
+
+# union
+print(a.union(b))
 
