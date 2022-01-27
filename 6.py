@@ -47,3 +47,6 @@ print(a.isdisjoint(b))
 
 # issubset
 print(c.issubset(g))
+
+# issuperset
+print(g.issuperset(c))
