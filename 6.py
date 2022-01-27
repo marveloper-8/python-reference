@@ -53,5 +53,6 @@ print(g.issuperset(c))
 print(h.issuperset(c))
 
 # pop
-a.pop()
-print(a)
+# a.pop()
+# print(a)
+print(a.pop())
