@@ -34,4 +34,10 @@ b = open("demofile2.txt", "a")
 # b = open("demofile2.txt", "r")
 # print(b.read())
 
-print(b.writable())
+# print(b.writable())
+
+b.write("See you soon!")
+b.close()
+
+b = open("demofile2.txt", "r")
+print(b.read())
