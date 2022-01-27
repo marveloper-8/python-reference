@@ -4,6 +4,7 @@ c = {"a", "b", "c"}
 d = {"c", "d", "e"}
 e = {"f", "g", "c"}
 f = {"google", "microsoft", "facebook"}
+g = {"f", "e", "d", "c", "b", "a"}
 
 # add
 # a.add("orange")
@@ -42,3 +43,6 @@ print(c.intersection(d, e))
 # isdisjoint
 print(a.isdisjoint(f))
 print(a.isdisjoint(b))
+
+# issubset
+print(c.issubset(g))
