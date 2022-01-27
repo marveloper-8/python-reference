@@ -58,5 +58,8 @@ print(h.issuperset(c))
 # print(a.pop())
 
 # remove
-a.remove("banana")
-print(a)
+# a.remove("banana")
+# print(a)
+
+# symmetric difference
+print(a.symmetric_difference(b))
