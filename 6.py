@@ -63,3 +63,8 @@ print(h.issuperset(c))
 
 # symmetric difference
 print(a.symmetric_difference(b))
+
+# symmetric difference update
+a.symmetric_difference_update(b)
+print(a)
+
