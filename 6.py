@@ -72,3 +72,7 @@ print(a.symmetric_difference(b))
 # union
 print(a.union(b))
 print(c.union(i, d))
+
+# update
+a.update(b)
+print(a)
