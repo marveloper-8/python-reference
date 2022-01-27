@@ -12,3 +12,4 @@ a = open("demofile.txt", "r")
 
 print(a.isatty())
 print(a.read())
+print(a.read(33))
