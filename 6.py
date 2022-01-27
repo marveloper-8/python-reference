@@ -51,3 +51,7 @@ print(c.issubset(g))
 # issuperset
 print(g.issuperset(c))
 print(h.issuperset(c))
+
+# pop
+a.pop()
+print(a)
