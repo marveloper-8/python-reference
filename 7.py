@@ -1,4 +1,5 @@
 a = open("demofile.txt", "r")
+b = open("demofile2.txt", "a")
 
 # print(a.read())
 # a.close()
@@ -22,6 +23,13 @@ a = open("demofile.txt", "r")
 # a.seek(4)
 # print(a.readline())
 # print(a.seek(4))
-print(a.seekable())
-print(a.readline())
-print(a.tell())
+# print(a.seekable())
+# print(a.readline())
+# print(a.tell())
+# print()
+
+b.truncate(20)
+b.close()
+
+b = open("demofile2.txt", "r")
+print(b.read())
