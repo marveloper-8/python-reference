@@ -6,8 +6,8 @@ a = {
 b = ('key1', 'key2', 'key3')
 
 # popitem
-a.popitem()
-print(a)
+# a.popitem()
+print(a.popitem())
 
 # pop
 # a.pop("model")
