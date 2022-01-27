@@ -6,6 +6,7 @@ e = {"f", "g", "c"}
 f = {"google", "microsoft", "facebook"}
 g = {"f", "e", "d", "c", "b", "a"}
 h = {"f", "e", "d", "c", "b"}
+i = {"f", "d", "a"}
 
 # add
 # a.add("orange")
@@ -70,4 +71,4 @@ print(a.symmetric_difference(b))
 
 # union
 print(a.union(b))
-
+print(c.union(i, d))
