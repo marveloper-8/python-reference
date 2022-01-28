@@ -35,3 +35,4 @@ class A:
     age = 36
 
 print(A.name)
+print(A().name)
