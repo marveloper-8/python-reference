@@ -9,3 +9,9 @@ else:
 
 # as
 print(c.month_name[1])
+
+# assert
+a = "hello"
+
+assert a == "hello"
+assert a == "goodbye"
