@@ -155,3 +155,7 @@ for a in range(1, 9):
 m = ["apple", "banana", "cherry"]
 for a in m:
     print(a)
+
+# from
+from datetime import time
+print(time(hour=15))
