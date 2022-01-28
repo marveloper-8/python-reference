@@ -77,3 +77,11 @@ for a in range(-5, 5):
         print("WHATEVER")
     else:
         print("NO")
+
+# else
+g = 2
+
+if g > 3:
+    print("YES")
+else:
+    print("NO")
