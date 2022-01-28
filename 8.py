@@ -181,3 +181,8 @@ else:
 # import
 import datetime
 print(datetime.datetime.now())
+
+# in
+q = ["apple", "banana", "cherry"]
+if "banana" in q:
+    print("yes")
