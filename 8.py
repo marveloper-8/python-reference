@@ -54,3 +54,9 @@ while c < 9:
 def d():
     print("Hello from a function")
 d()
+
+# del
+class B:
+    name = "John"
+del B
+print(B)
