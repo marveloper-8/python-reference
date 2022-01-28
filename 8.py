@@ -107,3 +107,12 @@ except NameError:
     print("You have a variable that is not defined.")
 except TypeError:
     print("You are comparing values of different type")
+
+try:
+    k = 1/0
+except NameError:
+    print("You have a variable that is not defined.")
+except TypeError:
+    print("You are comparing values of different type")
+except:
+    print("Something else went wrong")
