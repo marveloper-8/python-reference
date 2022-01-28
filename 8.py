@@ -167,3 +167,8 @@ def n():
 
 n()
 print(o)
+
+# if
+p = 5
+if p > 3:
+    print("YES")
