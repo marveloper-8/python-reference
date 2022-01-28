@@ -49,3 +49,8 @@ while c < 9:
     if c == 3:
         continue
     print(c)
+
+# def
+def d():
+    print("Hello from a function")
+d()
