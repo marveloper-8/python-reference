@@ -56,15 +56,24 @@ def d():
 d()
 
 # del
-# class B:
-#     name = "John"
+class B:
+    name = "John"
 # del B
-# print(B)
+print(B)
 
-# e = "hello"
+e = "hello"
 # del e
-# print(e)
+print(e)
 
 f = ["apple", "banana", "cherry"]
-del f[0]
+# del f[0]
 print(f)
+
+# elif
+for a in range(-5, 5):
+    if a > 0:
+        print("YES")
+    elif a == 0:
+        print("WHATEVER")
+    else:
+        print("NO")
