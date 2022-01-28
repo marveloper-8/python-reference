@@ -194,3 +194,7 @@ print(m is f)
 
 q = ["apple", "banana", "cherry"]
 print(f is q)
+
+# lambda
+r = lambda a : a + 10
+print(r(5))
