@@ -191,3 +191,6 @@ for a in f:
 # is
 m = f
 print(m is f)
+
+q = ["apple", "banana", "cherry"]
+print(f is q)
