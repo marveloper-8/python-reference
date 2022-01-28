@@ -137,3 +137,13 @@ print(5 == 6 and 6 == 7)
 print("hello" is not "hello")
 print(not(5 == 5))
 print(3 not in [1, 2, 3])
+
+# finally
+try:
+    m > 3
+except:
+    print("Something went wrong")
+else:
+    print("Nothing went wrong")
+finally:
+    print("The try...except block is finished")
