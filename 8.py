@@ -1,4 +1,5 @@
 import calendar as c
+from typing import Type
 
 # and
 print((5 > 3 and 5 < 10))
@@ -98,3 +99,11 @@ try:
     i > 3
 except:
     print("Something went wrong")
+
+j = "hello"
+try:
+    j > 3
+except NameError:
+    print("You have a variable that is not defined.")
+except TypeError:
+    print("You are comparing values of different type")
