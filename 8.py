@@ -159,3 +159,11 @@ for a in m:
 # from
 from datetime import time
 print(time(hour=15))
+
+# global
+def n():
+    global o 
+    o = "hello"
+
+n()
+print(o)
