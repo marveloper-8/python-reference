@@ -80,8 +80,15 @@ for a in range(-5, 5):
 
 # else
 g = 2
-
 if g > 3:
     print("YES")
 else:
     print("NO")
+
+h = 5
+try:
+    h > 10
+except:
+    print("Something went wrong")
+else:
+    print("The 'Try' code was executed without raising any errors!")
