@@ -42,3 +42,10 @@ for a in range(9):
     if a == 3:
         continue
     print(a)
+
+c = 0
+while c < 9:
+    c += 1
+    if c == 3:
+        continue
+    print(c)
