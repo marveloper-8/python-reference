@@ -186,3 +186,6 @@ print(datetime.datetime.now())
 q = ["apple", "banana", "cherry"]
 if "banana" in q:
     print("yes")
+
+for a in q:
+    print(a)
