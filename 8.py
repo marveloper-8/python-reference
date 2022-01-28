@@ -21,3 +21,17 @@ for a in range(9):
     if a > 3:
         break
     print(a)
+
+b = 1
+while b < 9:
+    print(b)
+    if b == 3:
+        break
+    b += 1
+
+# class
+class A:
+    name = "John"
+    age = 36
+
+print(A.name)
