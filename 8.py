@@ -92,3 +92,9 @@ except:
     print("Something went wrong")
 else:
     print("The 'Try' code was executed without raising any errors!")
+
+# except
+try:
+    i > 3
+except:
+    print("Something went wrong")
