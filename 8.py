@@ -116,3 +116,16 @@ except TypeError:
     print("You are comparing values of different type")
 except:
     print("Something else went wrong")
+
+l = 1
+try:
+    l > 10
+except NameError:
+    print("You have a variable that is not defined.")
+except TypeError:
+    print("You are comparing values of different type")
+else:
+    print("The 'Try' code was executed without raising any errors!")
+
+# false
+print(5 > 6)
