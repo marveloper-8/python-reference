@@ -172,3 +172,12 @@ print(o)
 p = 5
 if p > 3:
     print("YES")
+
+if p > 6:
+    print("YES")
+else:
+    print("NO")
+
+# import
+import datetime
+print(datetime.datetime.now())
