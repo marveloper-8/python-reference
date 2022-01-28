@@ -56,7 +56,11 @@ def d():
 d()
 
 # del
-class B:
-    name = "John"
-del B
-print(B)
+# class B:
+#     name = "John"
+# del B
+# print(B)
+
+e = "hello"
+del e
+print(e)
