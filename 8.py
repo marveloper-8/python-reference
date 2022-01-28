@@ -147,3 +147,7 @@ else:
     print("Nothing went wrong")
 finally:
     print("The try...except block is finished")
+
+# for
+for a in range(1, 9):
+    print(a)
