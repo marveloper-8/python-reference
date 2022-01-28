@@ -14,4 +14,4 @@ print(c.month_name[1])
 a = "hello"
 
 assert a == "hello"
-assert a == "goodbye"
+assert a == "goodbye", "a should be 'hello'"
