@@ -131,3 +131,4 @@ else:
 print(5 > 6)
 print(4 in [1, 2, 3])
 print("hello" is "goodbye")
+print(5 == 6)
