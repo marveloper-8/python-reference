@@ -129,3 +129,4 @@ else:
 
 # false
 print(5 > 6)
+print(4 in [1, 2, 3])
