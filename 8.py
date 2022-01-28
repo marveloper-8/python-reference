@@ -14,4 +14,10 @@ print(c.month_name[1])
 a = "hello"
 
 assert a == "hello"
-assert a == "goodbye", "a should be 'hello'"
+# assert a == "goodbye", "a should be 'hello'"
+
+# break
+for a in range(9):
+    if a > 3:
+        break
+    print(a)
