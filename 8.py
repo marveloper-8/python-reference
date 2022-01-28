@@ -198,3 +198,6 @@ print(f is q)
 # lambda
 r = lambda a : a + 10
 print(r(5))
+
+s = lambda a, b, c: a + b + c
+print(s(5, 6, 2))
