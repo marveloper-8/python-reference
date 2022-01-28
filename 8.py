@@ -152,8 +152,7 @@ finally:
 for a in range(1, 9):
     print(a)
 
-m = ["apple", "banana", "cherry"]
-for a in m:
+for a in f:
     print(a)
 
 # from
@@ -183,9 +182,12 @@ import datetime
 print(datetime.datetime.now())
 
 # in
-q = ["apple", "banana", "cherry"]
-if "banana" in q:
+if "banana" in f:
     print("yes")
 
-for a in q:
+for a in f:
     print(a)
+
+# is
+m = f
+print(m is f)
