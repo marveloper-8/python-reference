@@ -36,3 +36,9 @@ class A:
 
 print(A.name)
 print(A().name)
+
+# continue
+for a in range(9):
+    if a == 3:
+        continue
+    print(a)
