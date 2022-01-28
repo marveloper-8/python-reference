@@ -151,3 +151,7 @@ finally:
 # for
 for a in range(1, 9):
     print(a)
+
+m = ["apple", "banana", "cherry"]
+for a in m:
+    print(a)
