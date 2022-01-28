@@ -61,6 +61,10 @@ d()
 # del B
 # print(B)
 
-e = "hello"
-del e
-print(e)
+# e = "hello"
+# del e
+# print(e)
+
+f = ["apple", "banana", "cherry"]
+del f[0]
+print(f)
