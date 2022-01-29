@@ -152,3 +152,8 @@ print(type(1j))
 print(type(1))
 print(type(35656222554887711))
 print(type(-3255522))
+
+# floats
+print(type(1.10))
+print(type(1.0))
+print(type(-35.59))
