@@ -157,3 +157,12 @@ print(type(-3255522))
 print(type(1.10))
 print(type(1.0))
 print(type(-35.59))
+
+print(35e3)
+print(type(35e3))
+
+print(12E4)
+print(type(12E4))
+
+print(-87.7e100)
+print(type(-87.7e100))
