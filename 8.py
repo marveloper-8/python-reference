@@ -265,3 +265,4 @@ print(z())
 
 # True
 print(7 > 6)
+print(5 < 6)
