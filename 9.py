@@ -346,4 +346,5 @@ ac = 5
 print(ac)
 
 # comparison operators
-print(5 == 3)
+# print(5 == 3)
+print(5 != 3)
