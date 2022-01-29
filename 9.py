@@ -74,3 +74,10 @@ print(m + " " + n)
 
 o = 10
 print(a + o)
+
+# global variables
+p = "awesome"
+def q():
+    print("Python is " + p)
+
+q()
