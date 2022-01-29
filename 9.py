@@ -357,3 +357,10 @@ print(5 <= 3)
 print(ac > 3 and ac < 10)
 print(ac > 3 or ac < 4)
 print(not(ac > 3 and ac < 10))
+
+# identity operators
+ad = ["apple", "banana"]
+ae = ["apple", "banana"]
+af = ad
+print(ad is ae)
+print(ad is af)
