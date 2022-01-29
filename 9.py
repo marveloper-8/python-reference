@@ -76,7 +76,7 @@ o = 10
 print(a + o)
 
 # global variables
-# p = "awesome"
+p = "awesome"
 def q():
     global p
     p = "fantastic"
