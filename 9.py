@@ -197,3 +197,8 @@ print(type(w))
 # random number
 import random
 print(random.randrange(1, 10))
+
+# specifiy variable type
+print(int(1))
+print(int(2.8))
+print(int("3"))
