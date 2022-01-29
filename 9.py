@@ -370,3 +370,4 @@ print(ad is not af)
 
 # membership operators
 print("banana" in ad)
+print("orange" not in ad)
