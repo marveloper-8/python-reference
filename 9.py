@@ -59,5 +59,5 @@ print(j)
 
 # output variables
 print("Python is awesome")
-
 print("My name is " + b)
+print("My name is ", c)
