@@ -250,3 +250,4 @@ print(len("Hello, World!"))
 
 # check string
 print("ain" in "The rain in Spain stays mainly in the plain")
+print("ain" not in "The rain in Spain stays mainly in the plain")
