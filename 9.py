@@ -67,3 +67,7 @@ print("My name is ", c)
 k = "Python is "
 l = "awesome"
 print(k + l)
+
+m = "Hello"
+n = "World"
+print(m + " " + n)
