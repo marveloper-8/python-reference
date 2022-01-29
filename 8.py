@@ -239,3 +239,6 @@ else:
 # pass
 for a in [0, 1, 2]:
     pass
+
+def x():
+    pass
