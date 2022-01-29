@@ -139,3 +139,6 @@ print(type(b"Hello"))
 
 print(bytearray(5))
 print(type(bytearray(5)))
+
+print(memoryview(bytes(5)))
+print(type(memoryview(bytes(5))))
