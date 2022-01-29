@@ -261,3 +261,4 @@ print("I want to pay {2} dollars for {0} pieces of item {1}.".format(3, 567, 49.
 print("We are the so-called \"Vikings\" from the north.")
 print('It\'s alright.')
 print("This will insert one \\ (backlash).")
+print("Hello\nWorld!")
