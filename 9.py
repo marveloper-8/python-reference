@@ -316,3 +316,5 @@ if ab():
     print("YES!")
 else:
     print("NO!")
+
+print(isinstance(200, int))
