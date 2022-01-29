@@ -42,6 +42,12 @@ myVar = "john"
 MYVAR = "John"
 myvar2 = "John"
 
-2myvar = "John"
-my-var = "John"
-my var = "John"
+# 2myvar = "John"
+# my-var = "John"
+# my var = "John"
+
+# assign values to multiple variables
+e, f, g = "Orange", "Banana", "Cherry"
+print(e)
+print(f)
+print(g)
