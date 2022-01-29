@@ -273,3 +273,9 @@ print(5 == 5 or 6 == 7)
 print("hello" is not "goodbye")
 print(not(5 == 7))
 print(4 not in [1, 2, 3])
+
+# try
+try:
+    aa > 3
+except:
+    print("Something went wrong")
