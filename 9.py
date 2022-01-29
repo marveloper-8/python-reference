@@ -147,3 +147,8 @@ print(type(memoryview(bytes(5))))
 print(type(1))
 print(type(2.8))
 print(type(1j))
+
+# int
+print(type(1))
+print(type(35656222554887711))
+print(type(-3255522))
