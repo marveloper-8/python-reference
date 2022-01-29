@@ -354,4 +354,5 @@ print(5 >= 3)
 print(5 <= 3)
 
 # logical operators
-print(ac < 5 and ac < 10)
+print(ac > 3 and ac < 10)
+print(ac > 3 or ac < 4)
