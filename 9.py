@@ -244,3 +244,6 @@ print("Hello, World!"[2:5])
 
 # string negative indexing
 print("Hello, World!"[-5:-2])
+
+# string length
+print(len("Hello, World!"))
