@@ -201,3 +201,6 @@ print(r(5))
 
 s = lambda a, b, c: a + b + c
 print(s(5, 6, 2))
+
+# none
+print(None)
