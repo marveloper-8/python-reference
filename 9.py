@@ -84,3 +84,6 @@ def q():
 
 q()
 print("Python is " + p)
+
+# getting data types
+print(type("Hello"))
