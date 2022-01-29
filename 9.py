@@ -56,3 +56,6 @@ h = i = j = "Orange"
 print(h)
 print(i)
 print(j)
+
+# output variables
+print("Python is awesome")
