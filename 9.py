@@ -51,3 +51,8 @@ e, f, g = "Orange", "Banana", "Cherry"
 print(e)
 print(f)
 print(g)
+
+h = i = j = "Orange"
+print(h)
+print(i)
+print(j)
