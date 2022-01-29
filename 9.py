@@ -281,3 +281,9 @@ else:
 # evaluate boolean values
 print(bool("Hello"))
 print(bool(15))
+
+y = "Hello"
+z = 15
+
+print(bool(y))
+print(bool(z))
