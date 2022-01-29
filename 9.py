@@ -364,3 +364,6 @@ ae = ["apple", "banana"]
 af = ad
 print(ad is ae)
 print(ad is af)
+
+print(ad is not ae)
+print(ad is not af)
