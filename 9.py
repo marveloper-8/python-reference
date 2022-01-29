@@ -318,3 +318,6 @@ else:
     print("NO!")
 
 print(isinstance(200, int))
+
+# operators
+print(5 + 3)
