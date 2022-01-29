@@ -256,3 +256,6 @@ print("ain" not in "The rain in Spain stays mainly in the plain")
 print("My name is John, and I am {}".format(36))
 print("I want {} pieces of item {} for {} dollars.".format(3, 567, 49.95))
 print("I want to pay {2} dollars for {0} pieces of item {1}.".format(3, 567, 49.95))
+
+# escape character
+print("We are the so-called \"Vikings\" from the north.")
