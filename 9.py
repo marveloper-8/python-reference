@@ -118,3 +118,6 @@ print(type(["apple", "banana", "cherry"]))
 
 print(("apple", "banana", "cherry"))
 print(type(("apple", "banana", "cherry")))
+
+print(range(6))
+print(type(range(6)))
