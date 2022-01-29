@@ -235,3 +235,6 @@ fine
 thank
 you
 ''')
+
+# strings as arrays
+print("Hello, World!"[1])
