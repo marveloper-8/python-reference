@@ -280,7 +280,13 @@ try:
 except:
     print("Something went wrong")
 
-try:
-    aa > 3
-except:
-    raise Exception("Something went wrong")
+# try:
+#     aa > 3
+# except:
+#     raise Exception("Something went wrong")
+
+# while
+aa = 0
+while aa < 9:
+    print(aa)
+    aa += 1
