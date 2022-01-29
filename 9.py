@@ -127,3 +127,6 @@ print(type({"name": "John", "age": 36}))
 
 print({"apple", "banana", "cherry"})
 print(type({"apple", "banana", "cherry"}))
+
+print(frozenset({"apple", "banana", "cherry"}))
+print(type(frozenset({"apple", "banana", "cherry"})))
