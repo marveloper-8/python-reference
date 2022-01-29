@@ -193,3 +193,7 @@ print(w)
 print(type(u))
 print(type(v))
 print(type(w))
+
+# random number
+import random
+print(random.randrange(1, 10))
