@@ -136,3 +136,6 @@ print(type(True))
 
 print(b"Hello")
 print(type(b"Hello"))
+
+print(bytearray(5))
+print(type(bytearray(5)))
