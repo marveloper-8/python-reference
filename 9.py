@@ -219,3 +219,19 @@ print('Hello')
 # string variables
 x = "Hello"
 print(x)
+
+# multi line strings
+print("""
+Hello
+How
+are
+you
+""")
+
+print('''
+I
+am
+fine
+thank
+you
+''')
