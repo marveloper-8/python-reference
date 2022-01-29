@@ -224,3 +224,6 @@ def u():
     return v
 
 print(u())
+
+# not
+print(not False)
