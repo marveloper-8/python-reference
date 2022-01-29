@@ -242,3 +242,6 @@ for a in [0, 1, 2]:
 
 def x():
     pass
+
+class y():
+    pass
