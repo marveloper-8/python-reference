@@ -121,3 +121,6 @@ print(type(("apple", "banana", "cherry")))
 
 print(range(6))
 print(type(range(6)))
+
+print({"name": "John", "age": 36})
+print(type({"name": "John", "age": 36}))
