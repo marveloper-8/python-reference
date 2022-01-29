@@ -267,3 +267,8 @@ print("Hello\tWorld!")
 print("Hello \bWorld!")
 print("\110\145\154\154\157")
 print("\x48\x65\x6c\x6c\x6f")
+
+# boolean values
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
