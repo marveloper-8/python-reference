@@ -202,3 +202,8 @@ print(random.randrange(1, 10))
 print(int(1))
 print(int(2.8))
 print(int("3"))
+
+print(float(1))
+print(float(2.8))
+print(float("3"))
+print(float("4.2"))
