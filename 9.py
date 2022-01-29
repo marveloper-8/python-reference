@@ -241,3 +241,6 @@ print("Hello, World!"[1])
 
 # string slices
 print("Hello, World!"[2:5])
+
+# string negative indexing
+print("Hello, World!"[-5:-2])
