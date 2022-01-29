@@ -211,3 +211,7 @@ print(float("4.2"))
 print(str("s1"))
 print(str(2))
 print(str(3.0))
+
+# string literals
+print("Hello")
+print('Hello')
