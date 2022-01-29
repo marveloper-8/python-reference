@@ -103,3 +103,6 @@ print(type(memoryview(bytes(5))))
 # setting data type
 print("Hello World")
 print(type("Hello World"))
+
+print(20)
+print(type(20))
