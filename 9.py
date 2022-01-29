@@ -59,3 +59,5 @@ print(j)
 
 # output variables
 print("Python is awesome")
+
+print("My name is " + b)
