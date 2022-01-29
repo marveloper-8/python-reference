@@ -78,6 +78,8 @@ print(a + o)
 # global variables
 p = "awesome"
 def q():
+    p = "fantastic"
     print("Python is " + p)
 
 q()
+print("Python is " + p)
