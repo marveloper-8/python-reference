@@ -248,3 +248,7 @@ class y():
 
 if 33 > 200:
     pass
+
+# raise
+if -1 < 0:
+    raise Exception("Sorry, no numbers below zero")
