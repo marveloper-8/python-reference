@@ -245,3 +245,6 @@ def x():
 
 class y():
     pass
+
+if 33 > 200:
+    pass
