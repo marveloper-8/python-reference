@@ -374,3 +374,6 @@ print("orange" not in ad)
 
 # lists
 print(["apple", "banana", "cherry"])
+
+# access list items
+print(["apple", "banana", "cherry"][1])
