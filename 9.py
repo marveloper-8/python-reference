@@ -26,3 +26,7 @@ a = 5
 b = "John"
 print(a)
 print(b)
+
+c = 4
+c = "Sally"
+print(c)
