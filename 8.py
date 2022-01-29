@@ -266,3 +266,4 @@ print(z())
 # True
 print(7 > 6)
 print(5 < 6)
+print(2 in [1, 2, 3])
