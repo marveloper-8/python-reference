@@ -8,3 +8,15 @@ if 5 > 2:
 # comment
 # This is a comment
 print("Hello, World!") # This is another comment
+
+# multiline comment
+
+# This is a comment
+# written in
+# more than just one line
+
+"""
+This is a comment
+written in
+more than just one line
+"""
