@@ -262,3 +262,6 @@ def z():
     print("Hello, World!")
 
 print(z())
+
+# True
+print(7 > 6)
