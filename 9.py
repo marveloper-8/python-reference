@@ -99,3 +99,5 @@ print(type(True))
 print(type(b"Hello"))
 print(type(bytearray(5)))
 print(type(memoryview(bytes(5))))
+
+# setting data type
