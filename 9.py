@@ -41,3 +41,7 @@ _my_var = "John"
 myVar = "john"
 MYVAR = "John"
 myvar2 = "John"
+
+2myvar = "John"
+my-var = "John"
+my var = "John"
