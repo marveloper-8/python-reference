@@ -250,5 +250,8 @@ if 33 > 200:
     pass
 
 # raise
-if -1 < 0:
-    raise Exception("Sorry, no numbers below zero")
+# if -1 < 0:
+#     raise Exception("Sorry, no numbers below zero")
+
+if not type("hello") is int:
+    raise TypeError("Only integers are allowed")
