@@ -238,3 +238,6 @@ you
 
 # strings as arrays
 print("Hello, World!"[1])
+
+# string slices
+print("Hello, World!"[2:5])
