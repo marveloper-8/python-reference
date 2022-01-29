@@ -352,3 +352,6 @@ print(5 > 3)
 print(5 < 3)
 print(5 >= 3)
 print(5 <= 3)
+
+# logical operators
+print(ac < 5 and ac < 10)
