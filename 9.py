@@ -166,3 +166,13 @@ print(type(12E4))
 
 print(-87.7e100)
 print(type(-87.7e100))
+
+# complex
+print(3+5j)
+print(type(3+5j))
+
+print(5j)
+print(type(5j))
+
+print(-5j)
+print(type(-5j))
