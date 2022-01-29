@@ -235,3 +235,7 @@ if 5 > 3 or 5 > 10:
     print("At least one of the statements are True")
 else:
     print("None of the statements are True")
+
+# pass
+for a in [0, 1, 2]:
+    pass
