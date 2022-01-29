@@ -71,3 +71,6 @@ print(k + l)
 m = "Hello"
 n = "World"
 print(m + " " + n)
+
+o = 10
+print(a + o)
