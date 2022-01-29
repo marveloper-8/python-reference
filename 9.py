@@ -305,3 +305,9 @@ class aa():
         return 0
 
 print(bool(aa()))
+
+# return boolean
+def ab():
+    return True
+
+print(ab())
