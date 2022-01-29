@@ -204,3 +204,23 @@ print(s(5, 6, 2))
 
 # none
 print(None)
+
+t = None
+
+if t:
+    print("Do you think None is True?")
+elif t is False:
+    print("Do you think None is False?")
+else:
+    print("Non is not True, or False, None is just None...")
+
+# nonlocal
+def u():
+    v = "John"
+    def w():
+        nonlocal v
+        v = "hello"
+    w()
+    return v
+
+print(u())
