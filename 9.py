@@ -247,3 +247,6 @@ print("Hello, World!"[-5:-2])
 
 # string length
 print(len("Hello, World!"))
+
+# check string
+print("ain" in "The rain in Spain stays mainly in the plain")
