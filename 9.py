@@ -339,6 +339,7 @@ ac = 5
 # ac **= 3
 # ac &= 3
 # ac |= 3
-ac ^= 3
+# ac ^= 3
+ac >>= 3
 
 print(ac)
