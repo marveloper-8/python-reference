@@ -133,3 +133,6 @@ print(type(frozenset({"apple", "banana", "cherry"})))
 
 print(True)
 print(type(True))
+
+print(b"Hello")
+print(type(b"Hello"))
