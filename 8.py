@@ -279,3 +279,8 @@ try:
     aa > 3
 except:
     print("Something went wrong")
+
+try:
+    aa > 3
+except:
+    raise Exception("Something went wrong")
