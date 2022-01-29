@@ -76,10 +76,11 @@ o = 10
 print(a + o)
 
 # global variables
-p = "awesome"
+# p = "awesome"
 def q():
+    global p
     p = "fantastic"
-    print("Python is " + p)
+    # print("Python is " + p)
 
 q()
 print("Python is " + p)
