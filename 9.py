@@ -327,3 +327,10 @@ print(12 / 3)
 print(5 % 2)
 print(5 ** 2)
 print(15 // 2)
+
+# assignment operators
+ac = 5
+# ac += 3
+ac -= 3
+
+print(ac)
