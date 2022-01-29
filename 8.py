@@ -253,5 +253,11 @@ if 33 > 200:
 # if -1 < 0:
 #     raise Exception("Sorry, no numbers below zero")
 
-if not type("hello") is int:
-    raise TypeError("Only integers are allowed")
+# if not type("hello") is int:
+#     raise TypeError("Only integers are allowed")
+
+# return
+def z():
+    return 3 + 3
+
+print(z())
