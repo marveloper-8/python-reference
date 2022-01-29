@@ -311,3 +311,8 @@ def ab():
     return True
 
 print(ab())
+
+if ab():
+    print("YES!")
+else:
+    print("NO!")
