@@ -20,3 +20,9 @@ This is a comment
 written in
 more than just one line
 """
+
+# variables
+a = 5
+b = "John"
+print(a)
+print(b)
