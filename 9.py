@@ -33,3 +33,11 @@ print(c)
 
 d = "John"
 d = 'John'
+
+# variable names
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "john"
+MYVAR = "John"
+myvar2 = "John"
