@@ -215,3 +215,7 @@ print(str(3.0))
 # string literals
 print("Hello")
 print('Hello')
+
+# string variables
+x = "Hello"
+print(x)
