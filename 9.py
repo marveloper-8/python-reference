@@ -341,6 +341,9 @@ ac = 5
 # ac |= 3
 # ac ^= 3
 # ac >>= 3
-ac <<= 3
+# ac <<= 3
 
 print(ac)
+
+# comparison operators
+print(5 == 3)
