@@ -218,7 +218,7 @@ else:
 def u():
     v = "John"
     def w():
-        nonlocal v
+        # nonlocal v
         v = "hello"
     w()
     return v
