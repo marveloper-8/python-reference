@@ -277,3 +277,6 @@ if 33 > 200:
     print("33 is greater than 200")
 else:
     print("33 is not greater than 200")
+
+# evaluate boolean values
+print(bool("Hello"))
