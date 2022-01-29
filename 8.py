@@ -259,5 +259,6 @@ if 33 > 200:
 # return
 def z():
     return 3 + 3
+    print("Hello, World!")
 
 print(z())
