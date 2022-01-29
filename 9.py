@@ -109,3 +109,6 @@ print(type(20))
 
 print(20.5)
 print(type(20.5))
+
+print(1j)
+print(type(1j))
