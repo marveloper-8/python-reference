@@ -280,3 +280,4 @@ else:
 
 # evaluate boolean values
 print(bool("Hello"))
+print(bool(15))
