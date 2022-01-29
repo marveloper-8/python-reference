@@ -112,3 +112,6 @@ print(type(20.5))
 
 print(1j)
 print(type(1j))
+
+print(["apple", "banana", "cherry"])
+print(type(["apple", "banana", "cherry"]))
