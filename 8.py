@@ -227,3 +227,6 @@ print(u())
 
 # not
 print(not False)
+
+# or
+print((5 > 3 or 5 > 10))
