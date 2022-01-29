@@ -272,3 +272,8 @@ print("\x48\x65\x6c\x6c\x6f")
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
+
+if 33 > 200:
+    print("33 is greater than 200")
+else:
+    print("33 is not greater than 200")
