@@ -299,3 +299,9 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+class aa():
+    def __len__(self):
+        return 0
+
+print(bool(aa()))
