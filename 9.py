@@ -61,3 +61,9 @@ print(j)
 print("Python is awesome")
 print("My name is " + b)
 print("My name is ", c)
+
+
+# string concatenation
+k = "Python is "
+l = "awesome"
+print(k + l)
