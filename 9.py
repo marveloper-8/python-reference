@@ -142,3 +142,8 @@ print(type(bytearray(5)))
 
 print(memoryview(bytes(5)))
 print(type(memoryview(bytes(5))))
+
+# Numbers
+print(type(1))
+print(type(2.8))
+print(type(1j))
