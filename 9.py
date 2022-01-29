@@ -332,6 +332,7 @@ print(15 // 2)
 ac = 5
 # ac += 3
 # ac -= 3
-ac *= 3
+# ac *= 3
+ac /= 3
 
 print(ac)
