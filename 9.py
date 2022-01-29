@@ -101,41 +101,41 @@ print(type(bytearray(5)))
 print(type(memoryview(bytes(5))))
 
 # setting data type
-print("Hello World")
-print(type("Hello World"))
+print(str("Hello World"))
+print(type(str("Hello World")))
 
-print(20)
-print(type(20))
+print(int(20))
+print(type(int(20)))
 
-print(20.5)
-print(type(20.5))
+print(int(20.5))
+print(type(int(20.5)))
 
-print(1j)
-print(type(1j))
+print(complex(1j))
+print(type(complex(1j)))
 
-print(["apple", "banana", "cherry"])
-print(type(["apple", "banana", "cherry"]))
+print(list(("apple", "banana", "cherry")))
+print(type(list(("apple", "banana", "cherry"))))
 
-print(("apple", "banana", "cherry"))
-print(type(("apple", "banana", "cherry")))
+print(tuple(("apple", "banana", "cherry")))
+print(type(tuple(("apple", "banana", "cherry"))))
 
 print(range(6))
 print(type(range(6)))
 
-print({"name": "John", "age": 36})
-print(type({"name": "John", "age": 36}))
+print(dict(name="John", age=36))
+print(type(dict(name="John", age=36)))
 
-print({"apple", "banana", "cherry"})
-print(type({"apple", "banana", "cherry"}))
+print(set(("apple", "banana", "cherry")))
+print(type(set(("apple", "banana", "cherry"))))
 
-print(frozenset({"apple", "banana", "cherry"}))
-print(type(frozenset({"apple", "banana", "cherry"})))
+print(frozenset(("apple", "banana", "cherry")))
+print(type(frozenset(("apple", "banana", "cherry"))))
 
-print(True)
-print(type(True))
+print(bool(5))
+print(type(bool(5)))
 
-print(b"Hello")
-print(type(b"Hello"))
+print(bytes(5))
+print(type(bytes(5)))
 
 print(bytearray(5))
 print(type(bytearray(5)))
