@@ -87,3 +87,4 @@ print("Python is " + p)
 
 # getting data types
 print(type("Hello")) 
+print(type(3))
