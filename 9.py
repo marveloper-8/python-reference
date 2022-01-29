@@ -176,3 +176,20 @@ print(type(5j))
 
 print(-5j)
 print(type(-5j))
+
+# type conversion
+r = 1
+s = 2.8
+t = 1j
+
+u = float(r)
+v = int(s)
+w = complex(t)
+
+print(u)
+print(v)
+print(w)
+
+print(type(u))
+print(type(v))
+print(type(w))
