@@ -442,5 +442,7 @@ print(ak + al)
 #     ak.append(a)
 
 ak.extend(al)
-
 print(ak)
+
+# tuple
+print(("apple", "banana", "cherry"))
