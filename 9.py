@@ -579,3 +579,11 @@ print(aq)
 
 aq.clear()
 print(aq)
+
+# copy dictionaries
+ar = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(ar.copy())
