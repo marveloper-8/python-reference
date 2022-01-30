@@ -423,3 +423,6 @@ print(ag)
 
 del ag[0]
 print(ag)
+
+del ag
+print(ag)
