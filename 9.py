@@ -533,3 +533,4 @@ aq = {
 }
 print(aq)
 print(aq["model"])
+print(aq.get("model"))
