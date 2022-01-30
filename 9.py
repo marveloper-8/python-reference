@@ -382,3 +382,8 @@ print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][2:5])
 print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][:4])
 print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][2:])
 print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][-4:-1])
+
+# change list items
+ag = ["apple", "banana", "cherry"]
+ag[1] = "blackcurrant"
+print(ag)
