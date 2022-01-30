@@ -424,5 +424,6 @@ print(ag)
 del ag[0]
 print(ag)
 
-del ag
+# del ag
+ag.clear()
 print(ag)
