@@ -462,3 +462,7 @@ print(tuple(am))
 # loop tuple items
 for a in al:
     print(a)
+
+# check if tuple item exists
+if "apple" in al:
+    print("Yes, 'apple' is in the fruits tuple")
