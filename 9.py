@@ -606,3 +606,25 @@ at = {
 }
 
 print(at)
+
+ax = {
+    "name": "Emil",
+    "year": 2004
+}
+
+ay = {
+    "name": "Tobias",
+    "year": 2007
+}
+
+az = {
+    "name": "Linus",
+    "year": 2011
+}
+
+ba = {
+    "bb": ax,
+    "bc": ay,
+    "bd": az
+}
+print(ba)
