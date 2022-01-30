@@ -524,3 +524,12 @@ ap = {1, 2, 3}
 
 ao.update(ap)
 print(ao)
+
+# dictionaries
+aq = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(aq)
+print(aq["model"])
