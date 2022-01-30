@@ -518,3 +518,9 @@ print(an)
 
 # join sets
 print({"a", "b", "c"}.union({1, 2, 3}))
+
+ao = {"a", "b", "c"}
+ap = {1, 2, 3}
+
+ao.update(ap)
+print(ao)
