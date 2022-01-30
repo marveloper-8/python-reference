@@ -567,5 +567,9 @@ print(len(aq))
 aq["color"] = "red"
 print(aq)
 
+# remove an item from a dictionary
 aq.pop("model")
+print(aq)
+
+aq.popitem()
 print(aq)
