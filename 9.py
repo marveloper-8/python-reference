@@ -573,3 +573,6 @@ print(aq)
 
 aq.popitem()
 print(aq)
+
+del aq["brand"]
+print(aq)
