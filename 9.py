@@ -534,3 +534,11 @@ aq = {
 print(aq)
 print(aq["model"])
 print(aq.get("model"))
+
+# access dictionary items
+print(aq["model"])
+print(aq.get("model"))
+
+# change dictionary item
+aq["year"] = 2018
+print(aq)
