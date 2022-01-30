@@ -446,3 +446,6 @@ print(ak)
 
 # tuple
 print(("apple", "banana", "cherry"))
+
+# tuple items
+print(("apple", "banana", "cherry")[1])
