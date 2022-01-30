@@ -566,3 +566,6 @@ print(len(aq))
 # add item to dictionary
 aq["color"] = "red"
 print(aq)
+
+aq.pop("model")
+print(aq)
