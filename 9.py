@@ -391,3 +391,13 @@ print(ag)
 # loop list items
 for a in ag:
     print(a)
+
+# list comprehension
+ah = ["apple", "banana", "cherry", "kiwi", "mango"]
+ai = []
+
+for a in ah:
+    if "a" in a:
+        ai.append(a)
+
+print(ai)
