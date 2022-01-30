@@ -549,3 +549,6 @@ for a in aq:
 
 for a in aq:
     print(aq[a])
+
+for a in aq.values():
+    print(a)
