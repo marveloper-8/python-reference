@@ -555,3 +555,7 @@ for a in aq.values():
 
 for a, b in aq.items():
     print(a, b)
+
+# check if dictionary item exist
+if "model" in aq:
+    print("Yes 'model' is one of the keys in the dictionary")
