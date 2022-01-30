@@ -588,3 +588,21 @@ ar = {
 }
 print(ar.copy())
 print(dict(ar))
+
+# nested dictionaries
+at = {
+    "au": {
+        "name": "Emil",
+        "year": 2004
+    },
+    "av": {
+        "name": "Tobias",
+        "year": 2007
+    },
+    "aw": {
+        "name": "Linus",
+        "year": 2011
+    }
+}
+
+print(at)
