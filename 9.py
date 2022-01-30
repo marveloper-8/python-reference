@@ -484,3 +484,7 @@ print(("a", "b", "c") + (1, 2, 3))
 
 # set
 print({"apple", "banana", "cherry"})
+
+# access set items
+for a in {"apple", "banana", "cherry"}:
+    print(a)
