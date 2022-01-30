@@ -511,3 +511,7 @@ if "apple" in an:
 
 # set length
 print(len(an))
+
+# remove set item
+an.remove("banana")
+print(an)
