@@ -405,3 +405,6 @@ print(ai)
 # check if list item exists
 if "apple" in ag:
     print("Yes, 'apple' is in the fruits list")
+
+# list length
+print(len(ag))
