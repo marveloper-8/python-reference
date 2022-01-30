@@ -401,3 +401,7 @@ print(ai)
 #     if "a" in a:
 #         ai.append(a)
 # print(ai)
+
+# check if list item exists
+if "apple" in ag:
+    print("Yes, 'apple' is in the fruits list")
