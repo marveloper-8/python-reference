@@ -495,3 +495,6 @@ print("banana" in {"apple", "banana", "cherry"})
 an = {"apple", "banana", "cherry"}
 an.add("orange")
 print(an)
+
+an.update(["mango", "grapes"])
+print(an)
