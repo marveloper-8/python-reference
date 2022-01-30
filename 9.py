@@ -488,3 +488,5 @@ print({"apple", "banana", "cherry"})
 # access set items
 for a in {"apple", "banana", "cherry"}:
     print(a)
+
+print("banana" in {"apple", "banana", "cherry"})
