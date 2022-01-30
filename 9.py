@@ -490,3 +490,8 @@ for a in {"apple", "banana", "cherry"}:
     print(a)
 
 print("banana" in {"apple", "banana", "cherry"})
+
+# add set items
+an = {"apple", "banana", "cherry"}
+an.add("orange")
+print(an)
