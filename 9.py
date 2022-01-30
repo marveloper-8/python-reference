@@ -515,3 +515,6 @@ print(len(an))
 # remove set item
 an.remove("banana")
 print(an)
+
+# join sets
+print({"a", "b", "c"}.union({1, 2, 3}))
