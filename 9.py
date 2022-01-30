@@ -498,3 +498,7 @@ print(an)
 
 an.update(["mango", "grapes"])
 print(an)
+
+# loop set items
+for a in an:
+    print(a)
