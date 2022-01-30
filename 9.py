@@ -542,3 +542,7 @@ print(aq.get("model"))
 # change dictionary item
 aq["year"] = 2018
 print(aq)
+
+# loop dictionary items
+for a in aq:
+    print(a)
