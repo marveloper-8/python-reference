@@ -502,3 +502,5 @@ print(an)
 # loop set items
 for a in an:
     print(a)
+
+print("banana" in an)
