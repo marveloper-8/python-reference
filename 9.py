@@ -475,6 +475,9 @@ print(type(("apple",)))
 print(type(("apple")))
 
 # remove tuple item
-an = ("apple", "banana", "cherry")
-del an
-print(an)
+# an = ("apple", "banana", "cherry")
+# del an
+# print(an)
+
+print(("a", "b", "c") + (1, 2, 3))
+
