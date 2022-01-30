@@ -469,3 +469,7 @@ if "apple" in al:
 
 # tuple length
 print(len(("apple", "banana", "cherry")))
+
+# tuple with one item
+print(type(("apple",)))
+print(type(("apple")))
