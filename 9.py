@@ -466,3 +466,6 @@ for a in al:
 # check if tuple item exists
 if "apple" in al:
     print("Yes, 'apple' is in the fruits tuple")
+
+# tuple length
+print(len(("apple", "banana", "cherry")))
