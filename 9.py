@@ -431,3 +431,4 @@ print(ag)
 # copy list
 aj = ["apple", "banana", "cherry"]
 print(aj.copy())
+print(list(aj))
