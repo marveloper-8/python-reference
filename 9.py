@@ -417,3 +417,6 @@ print(ag)
 # remove items from list
 ag.remove("banana")
 print(ag)
+
+ag.pop()
+print(ag)
