@@ -559,3 +559,6 @@ for a, b in aq.items():
 # check if dictionary item exist
 if "model" in aq:
     print("Yes 'model' is one of the keys in the dictionary")
+
+# dictionary length
+print(len(aq))
