@@ -432,3 +432,8 @@ print(ag)
 aj = ["apple", "banana", "cherry"]
 print(aj.copy())
 print(list(aj))
+
+# join list
+ak = ["a", "b", "c"]
+al = [1, 2, 3]
+print(ak + al)
