@@ -449,3 +449,4 @@ print(("apple", "banana", "cherry"))
 
 # tuple items
 print(("apple", "banana", "cherry")[1])
+print(("apple", "banana", "cherry")[-1])
