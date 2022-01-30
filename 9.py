@@ -458,3 +458,7 @@ al = ("apple", "banana", "cherry")
 am = list(al)
 am[1] = "kiwi"
 print(tuple(am))
+
+# loop tuple items
+for a in al:
+    print(a)
