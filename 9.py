@@ -576,3 +576,6 @@ print(aq)
 
 del aq["brand"]
 print(aq)
+
+aq.clear()
+print(aq)
