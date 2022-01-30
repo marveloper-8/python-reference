@@ -546,3 +546,6 @@ print(aq)
 # loop dictionary items
 for a in aq:
     print(a)
+
+for a in aq:
+    print(aq[a])
