@@ -447,8 +447,14 @@ print(ak)
 # tuple
 print(("apple", "banana", "cherry"))
 
-# tuple items
+# access tuple items
 print(("apple", "banana", "cherry")[1])
 print(("apple", "banana", "cherry")[-1])
 print(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")[2:5])
 print(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")[-4:-1])
+
+# change tuple items
+al = ("apple", "banana", "cherry")
+am = list(al)
+am[1] = "kiwi"
+print(tuple(am))
