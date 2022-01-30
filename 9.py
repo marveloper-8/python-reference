@@ -437,3 +437,8 @@ print(list(aj))
 ak = ["a", "b", "c"]
 al = [1, 2, 3]
 print(ak + al)
+
+for a in al:
+    ak.append(a)
+
+print(ak)
