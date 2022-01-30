@@ -420,3 +420,6 @@ print(ag)
 
 ag.pop()
 print(ag)
+
+del ag[0]
+print(ag)
