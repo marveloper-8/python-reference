@@ -410,5 +410,6 @@ if "apple" in ag:
 print(len(ag))
 
 # add list items
-ag.append("orange")
+# ag.append("orange")
+ag.insert(1, "orange")
 print(ag)
