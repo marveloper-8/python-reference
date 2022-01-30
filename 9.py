@@ -385,7 +385,7 @@ print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][-4:-1])
 
 # change list items
 ag = ["apple", "banana", "cherry"]
-ag[1] = "blackcurrant"
+# ag[1] = "blackcurrant"
 print(ag)
 
 # loop list items
@@ -412,4 +412,8 @@ print(len(ag))
 # add list items
 # ag.append("orange")
 ag.insert(1, "orange")
+print(ag)
+
+# remove items from list
+ag.remove("banana")
 print(ag)
