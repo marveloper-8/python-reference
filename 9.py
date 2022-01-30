@@ -552,3 +552,6 @@ for a in aq:
 
 for a in aq.values():
     print(a)
+
+for a, b in aq.items():
+    print(a, b)
