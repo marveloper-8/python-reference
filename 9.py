@@ -479,5 +479,8 @@ print(type(("apple")))
 # del an
 # print(an)
 
+# join tuples
 print(("a", "b", "c") + (1, 2, 3))
 
+# set
+print({"apple", "banana", "cherry"})
