@@ -587,3 +587,4 @@ ar = {
     "year": 1964
 }
 print(ar.copy())
+print(dict(ar))
