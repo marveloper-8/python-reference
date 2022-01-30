@@ -387,3 +387,7 @@ print(["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"][-4:-1])
 ag = ["apple", "banana", "cherry"]
 ag[1] = "blackcurrant"
 print(ag)
+
+# loop list items
+for a in ag:
+    print(a)
