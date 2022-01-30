@@ -562,3 +562,7 @@ if "model" in aq:
 
 # dictionary length
 print(len(aq))
+
+# add item to dictionary
+aq["color"] = "red"
+print(aq)
