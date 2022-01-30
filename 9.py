@@ -508,3 +508,6 @@ print("banana" in an)
 # check if an item exists in a set
 if "apple" in an:
     print("Yes, 'apple' is in this set")
+
+# set length
+print(len(an))
