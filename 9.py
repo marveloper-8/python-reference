@@ -473,3 +473,8 @@ print(len(("apple", "banana", "cherry")))
 # tuple with one item
 print(type(("apple",)))
 print(type(("apple")))
+
+# remove tuple item
+an = ("apple", "banana", "cherry")
+del an
+print(an)
