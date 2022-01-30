@@ -427,3 +427,7 @@ print(ag)
 # del ag
 ag.clear()
 print(ag)
+
+# copy list
+aj = ["apple", "banana", "cherry"]
+print(aj.copy())
