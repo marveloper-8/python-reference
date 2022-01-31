@@ -670,3 +670,11 @@ if bb > bc and bd > bb:
 # if or
 if bb > bc or bb > bd:
     print("At least one of the conditions is True")
+
+# if nested
+if 41 > 10:
+    print("Above ten,")
+    if 41 > 20:
+        print("and also above 20!")
+    else:
+        print("but not above 20.")
