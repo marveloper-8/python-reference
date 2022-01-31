@@ -776,3 +776,9 @@ def bh(*a):
     print("The youngest child is " + a[2])
 
 bh("Emil", "Tobias", "Linus")
+
+# function keyword arguments
+def bi(a, b, c):
+    print("The youngest child is " + c)
+
+bi(a="Emil", b="Tobias", c="Linus")
