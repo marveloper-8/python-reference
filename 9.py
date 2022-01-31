@@ -755,5 +755,5 @@ for a in be:
         print(a, b)
 
 # if pass
-if 200 > 33:
+for a in [0, 1, 2]:
     pass
