@@ -690,8 +690,15 @@ be = 1
 #     be += 1
 
 # while break
+# while be < 6:
+#     print(be)
+#     if be == 3:
+#         break
+#     be += 1
+
+# while continue
 while be < 6:
-    print(be)
-    if be == 3:
-        break
     be += 1
+    if be == 3:
+        continue
+    print(be)
