@@ -757,3 +757,8 @@ for a in be:
 # if pass
 for a in [0, 1, 2]:
     pass
+
+# function
+def bf():
+    print("Hello from a function")
+bf()
