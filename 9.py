@@ -709,3 +709,8 @@ while be < 6:
     be += 1
 else:
     print("be is no longer less than 6")
+
+# for
+bd = ["apple", "banana", "cherry"]
+for a in bd:
+    print(a)
