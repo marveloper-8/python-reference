@@ -678,3 +678,7 @@ if 41 > 10:
         print("and also above 20!")
     else:
         print("but not above 20.")
+
+# if pass
+if bb > bc:
+    pass
