@@ -660,4 +660,4 @@ if bb > bc: print("bb is greater than bc")
 
 # shorthand if else
 print("A") if bb > bc else print("B")
-# print("A") if bb > bc else print("=") if bb == bc else print("B")
+print("A") if bb > bc else print("=") if bb == bc else print("B")
