@@ -782,3 +782,9 @@ def bi(a, b, c):
     print("The youngest child is " + c)
 
 bi(a="Emil", b="Tobias", c="Linus")
+
+# function arbitrary keyword arguments, **kwargs
+def bj(**a):
+    print("His last name is " + a["b"])
+
+bj(a="Tobias", b="Refsnes")
