@@ -746,3 +746,9 @@ for a in range(6):
     print(a)
 else:
     print("Finally finished!")
+
+be = ["red", "big", "tasty"]
+
+for a in be:
+    for b in bd:
+        print(a, b)
