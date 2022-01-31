@@ -720,7 +720,13 @@ for a in "banana":
     print(a)
 
 # for break
+# for a in bd:
+#     if a == "banana":
+#         break
+#     print(a)
+
+# for continue
 for a in bd:
     if a == "banana":
-        break
+        continue
     print(a)
