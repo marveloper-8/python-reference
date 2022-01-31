@@ -770,3 +770,9 @@ def bg(a):
 bg("Emil")
 bg("Tobias")
 bg("Linus")
+
+# function arbitary argument
+def bh(*a):
+    print("The youngest child is " + a[2])
+
+bh("Emil", "Tobias", "Linus")
