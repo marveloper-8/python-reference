@@ -638,3 +638,14 @@ if 33 > 33:
     print("33 is greater than 33")
 elif 33 == 33:
     print("33 and 33 are equal")
+
+# else
+bb = 200
+bc = 33
+
+if bc > bb:
+    print("bc is greater than bb")
+elif bb == bc:
+    print("bb and bc are equal")
+else:
+    print("bb is greater than bc")
