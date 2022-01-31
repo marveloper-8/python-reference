@@ -718,3 +718,9 @@ for a in bd:
 # for string
 for a in "banana":
     print(a)
+
+# for break
+for a in bd:
+    print(a)
+    if a == "banana":
+        break
