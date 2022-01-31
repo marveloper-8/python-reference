@@ -740,3 +740,9 @@ for a in range(2, 6):
 
 for a in range(2, 30, 3):
     print(a)
+
+# for else
+for a in range(6):
+    print(a)
+else:
+    print("Finally finished!")
