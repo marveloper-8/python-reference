@@ -682,3 +682,9 @@ if 41 > 10:
 # if pass
 if bb > bc:
     pass
+
+# while
+be = 1
+while be < 6:
+    print(be)
+    be += 1
