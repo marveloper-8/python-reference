@@ -747,8 +747,13 @@ for a in range(6):
 else:
     print("Finally finished!")
 
+# nested if
 be = ["red", "big", "tasty"]
 
 for a in be:
     for b in bd:
         print(a, b)
+
+# if pass
+if 200 > 33:
+    pass
