@@ -714,3 +714,7 @@ else:
 bd = ["apple", "banana", "cherry"]
 for a in bd:
     print(a)
+
+# for string
+for a in "banana":
+    print(a)
