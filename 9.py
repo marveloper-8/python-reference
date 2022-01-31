@@ -762,3 +762,11 @@ for a in [0, 1, 2]:
 def bf():
     print("Hello from a function")
 bf()
+
+# function arguments
+def bg(a):
+    print(a + " Refsnes")
+
+bg("Emil")
+bg("Tobias")
+bg("Linus")
