@@ -632,3 +632,9 @@ print(ba)
 # if statement
 if 200 > 33:
     print("200 is greater than 33")
+
+# elif
+if 33 > 33:
+    print("33 is greater than 33")
+elif 33 == 33:
+    print("33 and 33 are equal")
