@@ -788,3 +788,12 @@ def bj(**a):
     print("His last name is " + a["b"])
 
 bj(a="Tobias", b="Refsnes")
+
+# default paramter value
+def bk(a="Norway"):
+    print("I am from " + a)
+
+bk("Sweden")
+bk("India")
+bk()
+bk("Brazil")
