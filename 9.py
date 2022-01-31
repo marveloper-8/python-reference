@@ -628,3 +628,7 @@ ba = {
     "bd": az
 }
 print(ba)
+
+# if statement
+if 200 > 33:
+    print("200 is greater than 33")
