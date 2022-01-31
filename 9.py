@@ -666,3 +666,7 @@ print("A") if bb > bc else print("=") if bb == bc else print("B")
 # if and
 if bb > bc and bd > bb:
     print("Both conditions are True")
+
+# if or
+if bb > bc or bb > bd:
+    print("At least one of the conditions is True")
