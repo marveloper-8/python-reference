@@ -685,6 +685,13 @@ if bb > bc:
 
 # while
 be = 1
+# while be < 6:
+#     print(be)
+#     be += 1
+
+# while break
 while be < 6:
     print(be)
+    if be == 3:
+        break
     be += 1
