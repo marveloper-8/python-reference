@@ -730,3 +730,7 @@ for a in bd:
     if a == "banana":
         continue
     print(a)
+
+# for range
+for a in range(6):
+    print(a)
