@@ -721,6 +721,6 @@ for a in "banana":
 
 # for break
 for a in bd:
-    print(a)
     if a == "banana":
         break
+    print(a)
