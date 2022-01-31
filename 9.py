@@ -734,3 +734,6 @@ for a in bd:
 # for range
 for a in range(6):
     print(a)
+
+for a in range(2, 6):
+    print(a)
