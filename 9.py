@@ -649,3 +649,8 @@ elif bb == bc:
     print("bb and bc are equal")
 else:
     print("bb is greater than bc")
+
+if bc > bb:
+    print("bc is greater than bb")
+else:
+    print("bc is not greater than bb")
