@@ -697,8 +697,15 @@ be = 1
 #     be += 1
 
 # while continue
+# while be < 6:
+#     be += 1
+#     if be == 3:
+#         continue
+#     print(be)
+
+# while else
 while be < 6:
-    be += 1
-    if be == 3:
-        continue
     print(be)
+    be += 1
+else:
+    print("be is no longer less than 6")
