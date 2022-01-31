@@ -642,6 +642,7 @@ elif 33 == 33:
 # else
 bb = 200
 bc = 33
+bd = 300
 
 if bc > bb:
     print("bc is greater than bb")
@@ -661,3 +662,7 @@ if bb > bc: print("bb is greater than bc")
 # shorthand if else
 print("A") if bb > bc else print("B")
 print("A") if bb > bc else print("=") if bb == bc else print("B")
+
+# if and
+if bb > bc and bd > bb:
+    print("Both conditions are True")
