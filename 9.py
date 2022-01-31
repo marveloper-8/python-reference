@@ -654,3 +654,6 @@ if bc > bb:
     print("bc is greater than bb")
 else:
     print("bc is not greater than bb")
+
+# shorthand if
+if bb > bc: print("bb is greater than bc")
