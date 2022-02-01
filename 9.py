@@ -853,3 +853,6 @@ print(bt[0])
 
 bt[0] = "Toyota"
 print(bt)
+
+# array length
+print(len(bt))
