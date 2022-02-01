@@ -860,3 +860,7 @@ print(len(bt))
 # loop through array
 for a in bt:
     print(a)
+
+# add to array
+bt.append("Honda")
+print(bt)
