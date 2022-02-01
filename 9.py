@@ -850,3 +850,6 @@ print(bs(3)(11))
 # arrays
 bt = ["Ford", "Volvo", "BMW"]
 print(bt[0])
+
+bt[0] = "Toyota"
+print(bt)
