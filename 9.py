@@ -895,3 +895,7 @@ class C:
         print("Hello my name is " + self.a)
 
 C("John", 36).c()
+
+# modify object properties
+C.b = 40
+print(C.b)
