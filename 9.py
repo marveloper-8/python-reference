@@ -829,3 +829,8 @@ def bo(a):
 
 print("\n\nRecursion Example Results")
 bo(6)
+
+# lambda
+print("lambda")
+bp = lambda a : a + 10
+print(bp(5))
