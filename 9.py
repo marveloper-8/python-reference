@@ -856,3 +856,7 @@ print(bt)
 
 # array length
 print(len(bt))
+
+# loop through array
+for a in bt:
+    print(a)
