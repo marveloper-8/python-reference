@@ -844,5 +844,9 @@ print(br(5, 6, 2))
 # why lambda
 def bs(a):
     return lambda b : b * a
-
 print(bs(2)(11))
+print(bs(3)(11))
+
+# arrays
+bt = ["Ford", "Volvo", "BMW"]
+print(bt[0])
