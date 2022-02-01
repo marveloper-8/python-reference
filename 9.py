@@ -864,3 +864,7 @@ for a in bt:
 # add to array
 bt.append("Honda")
 print(bt)
+
+# remove item from array
+bt.pop(1)
+print(bt)
