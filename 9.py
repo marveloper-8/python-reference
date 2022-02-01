@@ -812,3 +812,8 @@ def bm(a):
 print(bm(3))
 print(bm(5))
 print(bm(9))
+
+# function pass
+def bn():
+    pass
+bn()
