@@ -840,3 +840,9 @@ print(bq(5, 6))
 
 br = lambda a, b, c : a + b + c
 print(br(5, 6, 2))
+
+# why lambda
+def bs(a):
+    return lambda b : b * a
+
+print(bs(2)(11))
