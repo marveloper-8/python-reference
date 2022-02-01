@@ -835,5 +835,8 @@ print("lambda")
 bp = lambda a : a + 10
 print(bp(5))
 
-bq = lambda a, b: a * b
+bq = lambda a, b : a * b
 print(bq(5, 6))
+
+br = lambda a, b, c : a + b + c
+print(br(5, 6, 2))
