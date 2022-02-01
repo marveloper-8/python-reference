@@ -817,3 +817,15 @@ print(bm(9))
 def bn():
     pass
 bn()
+
+# function recursion
+def bo(a):
+    if(a > 0):
+        b = a + bo(a - 1)
+        print(b)
+    else:
+        b = 0
+    return b
+
+print("\n\nRecursion Example Results")
+bo(6)
