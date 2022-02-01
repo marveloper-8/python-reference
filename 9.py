@@ -868,3 +868,6 @@ print(bt)
 # remove item from array
 bt.pop(1)
 print(bt)
+
+bt.remove("BMW")
+print(bt)
