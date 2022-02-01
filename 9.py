@@ -877,3 +877,12 @@ class A:
     a = 5
 
 print(A.a)
+
+# class init function
+class B:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+print(B("John", 36).a)
+print(B("John", 36).b)
