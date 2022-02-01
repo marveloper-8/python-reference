@@ -797,3 +797,18 @@ bk("Sweden")
 bk("India")
 bk()
 bk("Brazil")
+
+# passing a list as an argument
+def bl(a):
+    for b in a:
+        print(b)
+
+bl(bd)
+
+# function return value
+def bm(a):
+    return 5 * a
+
+print(bm(3))
+print(bm(5))
+print(bm(9))
