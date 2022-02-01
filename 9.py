@@ -871,3 +871,9 @@ print(bt)
 
 bt.remove("BMW")
 print(bt)
+
+# class
+class A:
+    a = 5
+
+print(A.a)
