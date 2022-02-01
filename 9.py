@@ -886,3 +886,12 @@ class B:
 
 print(B("John", 36).a)
 print(B("John", 36).b)
+
+class C:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def c(self):
+        print("Hello my name is " + self.a)
+
+C("John", 36).c()
