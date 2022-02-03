@@ -899,3 +899,7 @@ C("John", 36).c()
 # modify object properties
 C.b = 40
 print(C.b)
+
+# delete object properties
+del C.b
+print(C.b)
