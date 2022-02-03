@@ -1018,3 +1018,11 @@ class F:
     
 for a in iter(F()):
     print(a)
+
+# global scope
+ca = 300
+def cb():
+    print(ca)
+
+cb()
+print(ca)
