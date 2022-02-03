@@ -1156,3 +1156,8 @@ else:
 print(re.findall("[a-m]", ck))
 print(re.findall("\d", cl))
 print(re.findall("he..o", cm))
+
+if re.findall("^hello", cm):
+    print("Yes, the string starts with 'hello'")
+else:
+    print("No match")
