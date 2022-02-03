@@ -1171,3 +1171,12 @@ print(re.findall("he.*o", cm))
 print(re.findall("he.+o", cm))
 print(re.findall("he.?o", cm))
 print(re.findall("he.{2}o", cm))
+
+cn = "The rain in Spain falls mainly in the plain!"
+co = re.findall("falls|stays", cn)
+print(co)
+
+if co:
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
