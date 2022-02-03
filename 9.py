@@ -1099,3 +1099,6 @@ print(cg.strftime("%c"))
 print(cg.strftime("%x"))
 print(cg.strftime("%X"))
 print(cg.strftime("%%"))
+
+# json
+import json
