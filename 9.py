@@ -901,5 +901,9 @@ C.b = 40
 print(C.b)
 
 # delete object properties
-del C.b
+# del C.b
+# print(C.b)
+
+# delete objects
+del C
 print(C.b)
