@@ -1144,6 +1144,8 @@ print(json.dumps(cj, indent=4, sort_keys=True))
 # regex
 import re
 ck = "The rain in Spain"
+cl = "That will be 59 dollars"
+
 if re.search("^The.*Spain$", ck):
     print("YES! We have a match!")
 else:
@@ -1151,3 +1153,4 @@ else:
 
 # regex metacharacters
 print(re.findall("[a-m]", ck))
+print(re.findall("\d", cl))
