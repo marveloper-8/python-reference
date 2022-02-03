@@ -980,3 +980,7 @@ print(next(by))
 print(next(by))
 print(next(by))
 print(next(by))
+
+# iterate using a loop
+for a in "banana":
+    print(a)
