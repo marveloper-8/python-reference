@@ -1002,3 +1002,19 @@ print(next(bz))
 print(next(bz))
 print(next(bz))
 print(next(bz))
+
+# stop iteration
+class F:
+    def __iter__(a):
+        a.b = 1
+        return a
+    def __next__(a):
+        if a.b <= 20:
+            b = a.b
+            a.b += 1
+            return b
+        else:
+            raise StopIteration
+    
+for a in iter(F()):
+    print(a)
