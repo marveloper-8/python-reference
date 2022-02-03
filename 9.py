@@ -1048,3 +1048,7 @@ print(ten.cf["b"])
 # rename module
 import ten as tenModule
 print(tenModule.cf["a"])
+
+# built in module
+import platform
+print(platform.system())
