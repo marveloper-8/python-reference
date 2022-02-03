@@ -1229,3 +1229,9 @@ if re.findall("\s", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("\S", ck))
+if re.findall("\S", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
