@@ -195,6 +195,7 @@ print(type(v))
 print(type(w))
 
 # random number
+from ctypes import cdll
 import random
 print(random.randrange(1, 10))
 
@@ -1022,7 +1023,17 @@ for a in iter(F()):
 # global scope
 ca = 300
 def cb():
+    ca = 200
     print(ca)
 
 cb()
 print(ca)
+
+# global keyword
+cd = 200
+def cc():
+    global cd
+    cd = 300
+
+cc()
+print(cd)
