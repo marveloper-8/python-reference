@@ -1037,3 +1037,7 @@ def cc():
 
 cc()
 print(cd)
+
+# create module
+import ten
+ten.ce("Jonathan")
