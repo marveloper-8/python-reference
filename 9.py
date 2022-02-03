@@ -945,3 +945,9 @@ class D(C):
         super().__init__(a, b)
         self.d = 2019
 print(D("Mike", "Olsen").d)
+
+class D(C):
+    def __init__(self, a, b, d):
+        super().__init__(a, b)
+        self.e = d
+print(D("Mike", "Olsen", 2019).e)
