@@ -1255,7 +1255,7 @@ if re.findall("Spain\Z", ck):
 else:
     print("No match")
 
-# regex in sets
+# regex sets
 print(re.findall("[arn]", ck))
 if re.findall("[arn]", ck):
     print("Yes, there is at least one match!")
@@ -1303,3 +1303,6 @@ if re.findall("[+]", cp):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+# regex match
+print(re.search("ai", ck))
