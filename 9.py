@@ -1241,3 +1241,9 @@ if re.findall("\w", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("\W", ck))
+if re.findall("\W", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
