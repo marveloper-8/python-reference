@@ -1180,3 +1180,11 @@ if co:
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+# regex sequences
+cp = re.findall("\AThe", ck)
+print(cp)
+if cp:
+    print("Yes, there is a match!")
+else:
+    print("No match")
