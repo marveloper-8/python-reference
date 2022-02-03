@@ -1077,3 +1077,4 @@ print(datetime.datetime(2018, 6, 1).strftime("%B"))
 # date format codes
 cg = datetime.datetime.now()
 print(cg.strftime("%a"))
+print(cg.strftime("%A"))
