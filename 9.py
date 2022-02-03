@@ -961,3 +961,7 @@ class D(C):
         print("Welcome", g.a, g.b, "to the class of", g.e)
 
 D("Mike", "Olsen", 2019).f()
+
+# iterators
+for a in ("apple", "banana", "cherry"):
+    print(a)
