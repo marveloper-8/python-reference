@@ -1106,3 +1106,11 @@ import json
 # parse json
 ch = json.loads('{"name": "John", "age": 30, "city": "New York"}')
 print(ch["age"])
+
+# convert to json
+ci = json.dumps({
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+})
+print(ci)
