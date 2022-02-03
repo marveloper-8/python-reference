@@ -1052,3 +1052,6 @@ print(tenModule.cf["a"])
 # built in module
 import platform
 print(platform.system())
+
+# module dir
+print(dir(platform))
