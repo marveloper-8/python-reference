@@ -1161,3 +1161,8 @@ if re.findall("^hello", cm):
     print("Yes, the string starts with 'hello'")
 else:
     print("No match")
+
+if re.findall("planet$", cm):
+    print("Yes, the string ends with 'planet'")
+else:
+    print("No match")
