@@ -1211,3 +1211,9 @@ if re.findall(r"ain\B", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("\d", ck))
+if re.findall("\d", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
