@@ -1168,3 +1168,4 @@ else:
     print("No match")
 
 print(re.findall("he.*o", cm))
+print(re.findall("he.+o", cm))
