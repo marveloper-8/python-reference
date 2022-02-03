@@ -905,5 +905,11 @@ print(C.b)
 # print(C.b)
 
 # delete objects
-del C
-print(C.b)
+# del C
+# print(C.b)
+
+# pass keyword in class
+class D:
+    pass
+
+print(D)
