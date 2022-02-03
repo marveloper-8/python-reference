@@ -1182,9 +1182,14 @@ else:
     print("No match")
 
 # regex sequences
-cp = re.findall("\AThe", ck)
-print(cp)
-if cp:
+print(re.findall("\AThe", ck))
+if re.findall("\AThe", ck):
     print("Yes, there is a match!")
+else:
+    print("No match")
+
+print(re.findall(r"\bain", ck))
+if re.findall(r"\bain", ck):
+    print("Yes, there is at least one match!")
 else:
     print("No match")
