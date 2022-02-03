@@ -1041,3 +1041,6 @@ print(cd)
 # create module
 import ten
 ten.ce("Jonathan")
+
+# module variables
+print(ten.cf["b"])
