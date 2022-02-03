@@ -1285,3 +1285,9 @@ if re.findall("[0-9]", cp):
     print("Yes, there is at least one match!")
 else:
     print("No match!")
+
+print(re.findall("[0-5][0-9]", cp))
+if re.findall("[0-5][0-9]", cp):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
