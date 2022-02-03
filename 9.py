@@ -1055,3 +1055,7 @@ print(platform.system())
 
 # module dir
 print(dir(platform))
+
+# module import from 
+from ten import cf
+print(cf["c"])
