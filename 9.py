@@ -931,3 +931,10 @@ class D(C):
         C.__init__(self, a, b)
 
 D("Mike", "Olsen").c()
+
+# super
+class D(C):
+    def __init__(self, a, b):
+        super().__init__(a, b)
+
+D("Manny", "John").c()
