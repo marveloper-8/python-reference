@@ -938,3 +938,10 @@ class D(C):
         super().__init__(a, b)
 
 D("Manny", "John").c()
+
+# add property
+class D(C):
+    def __init__(self, a, b):
+        super().__init__(a, b)
+        self.d = 2019
+print(D("Mike", "Olsen").d)
