@@ -1102,3 +1102,7 @@ print(cg.strftime("%%"))
 
 # json
 import json
+
+# parse json
+ch = json.loads('{"name": "John", "age": 30, "city": "New York"}')
+print(ch["age"])
