@@ -1307,3 +1307,4 @@ else:
 # regex match
 print(re.search("ai", ck))
 print(re.search(r"\bS\w+", ck).span())
+print(re.search(r"\bS\w+", ck).string)
