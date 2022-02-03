@@ -951,3 +951,13 @@ class D(C):
         super().__init__(a, b)
         self.e = d
 print(D("Mike", "Olsen", 2019).e)
+
+# add class method
+class D(C):
+    def __init__(self, a, b, d):
+        super().__init__(a, b)
+        self.e = d
+    def f(g):
+        print("Welcome", g.a, g.b, "to the class of", g.e)
+
+D("Mike", "Olsen", 2019).f()
