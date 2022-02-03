@@ -1070,3 +1070,6 @@ print(datetime.datetime.now().strftime("%A"))
 
 # date create
 print(datetime.datetime(2020, 5, 17))
+
+# strftime method
+print(datetime.datetime(2018, 6, 1).strftime("%B"))
