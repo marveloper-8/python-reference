@@ -1272,3 +1272,9 @@ if re.findall("[^arn]", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("[0123]", ck))
+if re.findall("[0123]", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
