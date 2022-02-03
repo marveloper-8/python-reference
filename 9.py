@@ -1170,3 +1170,4 @@ else:
 print(re.findall("he.*o", cm))
 print(re.findall("he.+o", cm))
 print(re.findall("he.?o", cm))
+print(re.findall("he.{2}o", cm))
