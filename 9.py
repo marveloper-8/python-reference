@@ -984,3 +984,21 @@ print(next(by))
 # iterate using a loop
 for a in "banana":
     print(a)
+
+# create an iterator
+class E:
+    def __iter__(a):
+        a.b = 1
+        return a
+    def __next__(a):
+        b = a.b
+        a.b += 1
+        return b
+
+bz = iter(E())
+
+print(next(bz))
+print(next(bz))
+print(next(bz))
+print(next(bz))
+print(next(bz))
