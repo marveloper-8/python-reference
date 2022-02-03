@@ -1067,3 +1067,6 @@ print(datetime.datetime.now())
 # date output
 print(datetime.datetime.now().year)
 print(datetime.datetime.now().strftime("%A"))
+
+# date create
+print(datetime.datetime(2020, 5, 17))
