@@ -1137,3 +1137,6 @@ cj = {
 
 print(json.dumps(cj, indent=4))
 print(json.dumps(cj, indent=4, separators=(". ", " = ")))
+
+# sort json
+print(json.dumps(cj, indent=4, sort_keys=True))
