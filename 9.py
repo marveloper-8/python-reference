@@ -1136,3 +1136,4 @@ cj = {
 }
 
 print(json.dumps(cj, indent=4))
+print(json.dumps(cj, indent=4, separators=(". ", " = ")))
