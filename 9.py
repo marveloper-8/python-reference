@@ -1309,3 +1309,9 @@ print(re.search("ai", ck))
 print(re.search(r"\bS\w+", ck).span())
 print(re.search(r"\bS\w+", ck).string)
 print(re.search(r"\bS\w+", ck).group())
+
+# error handling
+try:
+    print(cq)
+except:
+    print("An exception occurred")
