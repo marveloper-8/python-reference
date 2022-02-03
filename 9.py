@@ -1166,3 +1166,5 @@ if re.findall("planet$", cm):
     print("Yes, the string ends with 'planet'")
 else:
     print("No match")
+
+print(re.findall("he.*o", cm))
