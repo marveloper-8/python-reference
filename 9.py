@@ -916,4 +916,11 @@ print(D)
 
 # parent class
 bu = C("Man", "Doe")
-print(bu.c())
+bu.c()
+
+# child class
+class D(C):
+    pass
+
+bv = D("Mike", "Olsen")
+bv.c()
