@@ -1247,3 +1247,9 @@ if re.findall("\W", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("Spain\Z", ck))
+if re.findall("Spain\Z", ck):
+    print("Yes, there is a match!")
+else:
+    print("No match")
