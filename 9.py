@@ -1143,8 +1143,11 @@ print(json.dumps(cj, indent=4, sort_keys=True))
 
 # regex
 import re
-ck = re.search("^The.*Spain$", "The rain in Spain")
-if ck:
+ck = "The rain in Spain"
+if re.search("^The.*Spain$", ck):
     print("YES! We have a match!")
 else:
     print("No match")
+
+# regex metacharacters
+print(re.findall("[a-m]", ck))
