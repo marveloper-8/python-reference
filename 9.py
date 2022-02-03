@@ -924,3 +924,10 @@ class D(C):
 
 bv = D("Mike", "Olsen")
 bv.c()
+
+# init for child class
+class D(C):
+    def __init__(self, a, b):
+        C.__init__(self, a, b)
+
+D("Mike", "Olsen").c()
