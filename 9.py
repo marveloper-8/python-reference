@@ -1063,3 +1063,7 @@ print(cf["c"])
 # date
 import datetime
 print(datetime.datetime.now())
+
+# date output
+print(datetime.datetime.now().year)
+print(datetime.datetime.now().strftime("%A"))
