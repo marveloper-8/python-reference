@@ -1146,6 +1146,7 @@ import re
 ck = "The rain in Spain"
 cl = "That will be 59 dollars"
 cm = "hello planet"
+cp = "8 times before 11:45 AM"
 
 if re.search("^The.*Spain$", ck):
     print("YES! We have a match!")
@@ -1278,3 +1279,9 @@ if re.findall("[0123]", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("[0-9]", cp))
+if re.findall("[0-9]", cp):
+    print("Yes, there is at least one match!")
+else:
+    print("No match!")
