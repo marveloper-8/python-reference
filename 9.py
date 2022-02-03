@@ -1044,3 +1044,7 @@ ten.ce("Jonathan")
 
 # module variables
 print(ten.cf["b"])
+
+# rename module
+import ten as tenModule
+print(tenModule.cf["a"])
