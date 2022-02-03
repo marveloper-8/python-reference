@@ -1140,3 +1140,11 @@ print(json.dumps(cj, indent=4, separators=(". ", " = ")))
 
 # sort json
 print(json.dumps(cj, indent=4, sort_keys=True))
+
+# regex
+import re
+ck = re.search("^The.*Spain$", "The rain in Spain")
+if ck:
+    print("YES! We have a match!")
+else:
+    print("No match")
