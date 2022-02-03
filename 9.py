@@ -1253,3 +1253,10 @@ if re.findall("Spain\Z", ck):
     print("Yes, there is a match!")
 else:
     print("No match")
+
+# regex in sets
+print(re.findall("[arn]", ck))
+if re.findall("[arn]", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
