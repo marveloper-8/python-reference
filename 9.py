@@ -963,5 +963,12 @@ class D(C):
 D("Mike", "Olsen", 2019).f()
 
 # iterators
-for a in ("apple", "banana", "cherry"):
+bw = ("apple", "banana", "cherry")
+for a in bw:
     print(a)
+
+# iterator vs iterable
+bx = iter(bw)
+print(next(bx))
+print(next(bx))
+print(next(bx))
