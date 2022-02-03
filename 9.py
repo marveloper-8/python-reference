@@ -1297,3 +1297,9 @@ if re.findall("[a-zA-Z]", cp):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall("[+]", cp))
+if re.findall("[+]", cp):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
