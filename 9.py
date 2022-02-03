@@ -1199,3 +1199,9 @@ if re.findall(r"ain\b", ck):
     print("Yes, there is at least one match!")
 else:
     print("No match")
+
+print(re.findall(r"\Bain", ck))
+if re.findall(r"\Bain", ck):
+    print("Yes, there is at least one match!")
+else:
+    print("No match")
