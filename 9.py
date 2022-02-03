@@ -913,3 +913,7 @@ class D:
     pass
 
 print(D)
+
+# parent class
+bu = C("Man", "Doe")
+print(bu.c())
