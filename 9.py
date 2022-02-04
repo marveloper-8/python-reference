@@ -1315,3 +1315,11 @@ try:
     print(cq)
 except:
     print("An exception occurred")
+
+# try except
+try:
+    print(cq)
+except NameError:
+    print("Variable x is not defined")
+except:
+    print("Something else went wrong")
