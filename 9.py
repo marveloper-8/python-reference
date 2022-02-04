@@ -1342,3 +1342,7 @@ try:
         cr.close()
 except:
     print("Something went wrong when opening the file")
+
+# raise
+if -1 < 0:
+    raise Exception("Sorry, no numbers below zero")
