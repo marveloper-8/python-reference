@@ -1331,3 +1331,14 @@ except:
     print("Something went wrong")
 finally:
     print("The 'try except' is finished")
+
+try:
+    cr = open("demofile3.txt")
+    try:
+        cr.write("Lorem Ipsum")
+    except:
+        print("Something went wrong when writing to the file")
+    finally:
+        cr.close()
+except:
+    print("Something went wrong when opening the file")
